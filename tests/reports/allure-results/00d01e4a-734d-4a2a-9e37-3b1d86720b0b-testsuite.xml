@@ -1,0 +1,117 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701416070022' stop='1701416556876'>
+    <name>Homepage Cabang Disekitarmu</name>
+    <title>Homepage Cabang Disekitarmu</title>
+    <test-cases>
+        <test-case start='1701416070022' status='passed' stop='1701416123304'>
+            <name>@TDA-458, Sebagai Customer, saya akan melihat cabang sekitarmu pada halaman homepage @sit @uat</name>
+            <title>@TDA-458, Sebagai Customer, saya akan melihat cabang sekitarmu pada halaman homepage @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='115ce503-9cb9-47af-9d80-2d4011547452-attachment.png' type='image/png' size='936751'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701416123306' status='passed' stop='1701416186675'>
+            <name>@TDA-462, Sebagai Customer, saya dapat mengetahui nomor telepon cabang untuk memperoleh informasi detail dan juga dapat menghubungi salesman lewat whatsapp @sit @uat</name>
+            <title>@TDA-462, Sebagai Customer, saya dapat mengetahui nomor telepon cabang untuk memperoleh informasi detail dan juga dapat menghubungi salesman lewat whatsapp @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ef22c859-4acd-4deb-b4a2-cad7e795c3c0-attachment.png' type='image/png' size='250120'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701416186675' status='passed' stop='1701416250035'>
+            <name>@TDA-461, Sebagai Customer, saya dapat mengetahui list provinsi dan list kota dengan icon dan copywrite deskripsi serta akan menampilkan cabang pada saat mengubah menjadi tampilkan Peta @sit @uat</name>
+            <title>@TDA-461, Sebagai Customer, saya dapat mengetahui list provinsi dan list kota dengan icon dan copywrite deskripsi serta akan menampilkan cabang pada saat mengubah menjadi tampilkan Peta @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='536db474-e588-41d5-9008-715009b91a79-attachment.png' type='image/png' size='688848'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701416250051' status='passed' stop='1701416337424'>
+            <name>@TDA-463, Sebagai Customer, saya dapat mengetahui informasi detail cabang dan promo/ event cabang tersebut @sit @uat</name>
+            <title>@TDA-463, Sebagai Customer, saya dapat mengetahui informasi detail cabang dan promo/ event cabang tersebut @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b9b76dd3-f421-494e-bf6e-fd4246a33467-attachment.png' type='image/png' size='485792'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701416337424' status='passed' stop='1701416408041'>
+            <name>@TDA-466, Sebagai customer saya dapat direct ke booking service pada page detail cabang @sit @uat</name>
+            <title>@TDA-466, Sebagai customer saya dapat direct ke booking service pada page detail cabang @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3628bbd2-6994-4bfc-a52e-682bc563f5e1-attachment.png' type='image/png' size='387034'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701416408043' status='failed' stop='1701416556865'>
+            <name>@TDA-467, Sebagai customer saya dapat melihat informasi produk mobil baru yang trend saat ini pada page detail cabang @sit @uat</name>
+            <title>@TDA-467, Sebagai customer saya dapat melihat informasi produk mobil baru yang trend saat ini pada page detail cabang @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c6f3e671-82b1-4e11-9864-aa297f6bf700-attachment.png' type='image/png' size='439085'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

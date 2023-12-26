@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700643931887' stop='1700644104384'>
+    <name>Filter Mobil Baru</name>
+    <title>Filter Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700643931888' status='passed' stop='1700643959057'>
+            <name>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</name>
+            <title>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bb065f86-5643-461a-a3b3-1b981d354553-attachment.png' type='image/png' size='374744'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643959059' status='passed' stop='1700643965714'>
+            <name>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</name>
+            <title>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='676be382-99a5-48dc-8b97-5c9c4dfbe0d6-attachment.png' type='image/png' size='178407'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643965715' status='passed' stop='1700643978469'>
+            <name>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</name>
+            <title>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='892aa89a-d219-430d-b776-72ed2115f13b-attachment.png' type='image/png' size='541269'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643978482' status='passed' stop='1700643988127'>
+            <name>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</name>
+            <title>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a5799072-a950-4cf9-9767-ad0cf1d88afe-attachment.png' type='image/png' size='92579'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643988128' status='pending' stop='1700643988128'>
+            <name>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @sit</name>
+            <title>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700643988129' status='failed' stop='1700644104371'>
+            <name>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat </name>
+            <title>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a9b788b4-0f27-4d72-b517-5c6aa1b3336d-attachment.png' type='image/png' size='466547'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("AVANZA 1.5 G M/T")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("AVANZA 1.5 G M/T")") still not displayed after 90000ms
+                    at async pdpMobilBaru.verifyCarManual (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:218:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.filterMobilBaru.ts:50:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

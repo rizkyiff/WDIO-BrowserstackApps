@@ -1,0 +1,103 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702875188824' stop='1702875467887'>
+    <name>Ajukan Pertanyaan from Branch</name>
+    <title>Ajukan Pertanyaan from Branch</title>
+    <test-cases>
+        <test-case start='1702875188830' status='failed' stop='1702875360621'>
+            <name>@TDA-431, Sebagai customer saya dapat melakukan pengisian ajukan pertanyaan pada halaman detail cabang @uat @sit</name>
+            <title>@TDA-431, Sebagai customer saya dapat melakukan pengisian ajukan pertanyaan pada halaman detail cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps>
+                <step start='1702875188833' status='passed' stop='1702875257327'>
+                    <name>Precondition</name>
+                    <title>Precondition</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1702875257329' status='failed' stop='1702875360621'>
+                    <name>Pilih kota</name>
+                    <title>Pilih kota</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='4e8d1209-30d9-423f-afc0-abf13e4f8a39-attachment.png' type='image/png' size='1020483'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("android=text("NEAREST BRANCHES")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("NEAREST BRANCHES")") still not displayed after 90000ms
+                    at async LokasiScreen.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\lokasi.screen.ts:31:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.ajukanPertanyaan.ts:31:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702875360624' status='failed' stop='1702875467875'>
+            <name>@TDA-465, Sebagai Customer, saya dapat mengisi formulir pertanyaan ke cabang @uat @sit</name>
+            <title>@TDA-465, Sebagai Customer, saya dapat mengisi formulir pertanyaan ke cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps>
+                <step start='1702875360626' status='failed' stop='1702875467874'>
+                    <name>Precondition</name>
+                    <title>Precondition</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: waitUntil condition failed with the following reason: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.ajukanPertanyaan.ts:24:9)
+                --- End of stack trace ---
+                
+                    unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                        at async LokasiScreen.tapBtnLocation (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\lokasi.screen.ts:22:16)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.ajukanPertanyaan.ts:48:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: waitUntil condition failed with the following reason: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.ajukanPertanyaan.ts:24:9)
+                --- End of stack trace ---
+                
+                    unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                        at async LokasiScreen.tapBtnLocation (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\lokasi.screen.ts:22:16)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.ajukanPertanyaan.ts:48:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700610395448' stop='1700610519736'>
+    <name>Journey Sortby Aksesoris</name>
+    <title>Journey Sortby Aksesoris</title>
+    <test-cases>
+        <test-case start='1700610395449' status='failed' stop='1700610519733'>
+            <name>TDA-564 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Aksesoris dan menampilkan hasil sortir @lcsmoehr0020 @uat</name>
+            <title>TDA-564 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Aksesoris dan menampilkan hasil sortir @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c56c583a-f6cc-428d-993e-b8792c28811d-attachment.png' type='image/png' size='495231'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Rp. 20.000")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Rp. 20.000")") still not displayed after 90000ms
+                    at async kategoriAksesoris.doSortBy (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.aksesoris.screen.ts:259:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\Aksesoris\app.sortbyAksesoris.ts:18:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700610519735' status='pending' stop='1700610519735'>
+            <name>TDA-564 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Aksesoris dan menampilkan hasil sortir @lcsmoehr0020 @sit</name>
+            <title>TDA-564 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Aksesoris dan menampilkan hasil sortir @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

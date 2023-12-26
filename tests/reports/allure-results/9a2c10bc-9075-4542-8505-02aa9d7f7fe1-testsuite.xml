@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700723705481' stop='1700723913355'>
+    <name>Add, Update and Remove Kendaraan Saya</name>
+    <title>Add, Update and Remove Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1700723705482' status='failed' stop='1700723913349'>
+            <name>@TDA-731 - Sebagai Customer, Saya dapat merubah detail kendaraan saya di MyProfile @uat @sit</name>
+            <title>@TDA-731 - Sebagai Customer, Saya dapat merubah detail kendaraan saya di MyProfile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='efccb03f-6234-4507-b751-23a861c81ae3-attachment.png' type='image/png' size='657948'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("Hi Auto Family! Mohon Lengkapi Data Anda")") still not displayed after 90000ms
+                        at async profileloggedScreen.verifyScreenPopUp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:61:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.editKendaraanSaya.ts:15:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Kendaraan Saya")" because element wasn't found
+                        at async profileloggedScreen.tapTxtKendaraanSaya (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:31:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.editKendaraanSaya.ts:21:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("Hi Auto Family! Mohon Lengkapi Data Anda")") still not displayed after 90000ms
+                        at async profileloggedScreen.verifyScreenPopUp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:61:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.editKendaraanSaya.ts:15:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Kendaraan Saya")" because element wasn't found
+                        at async profileloggedScreen.tapTxtKendaraanSaya (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:31:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.editKendaraanSaya.ts:21:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701048684298' stop='1701049077057'>
+    <name>TDA-832 - Enhancement Booking Service WS - @lcsmoehr0020</name>
+    <title>TDA-832 - Enhancement Booking Service WS - @lcsmoehr0020</title>
+    <test-cases>
+        <test-case start='1701048684299' status='failed' stop='1701048795547'>
+            <name>TDA-902, as user i can see screen Workshop Service @sit @uat</name>
+            <title>TDA-902, as user i can see screen Workshop Service @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fb5492b7-ab1c-4b84-b127-94421cb275fe-attachment.png' type='image/png' size='202716'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Silahkan tambahkan kendaraan anda.")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Silahkan tambahkan kendaraan anda.")") still not displayed after 90000ms
+                    at async kategoriWorkshop.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.workshop.screen.ts:100:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\WorkshopService\app.E2eWorkshopService.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701048795549' status='passed' stop='1701048796985'>
+            <name>TDA-568 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Layanan Bengkel apabila saya belum login - @sit @uat @lcsmoehr0020</name>
+            <title>TDA-568 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Layanan Bengkel apabila saya belum login - @sit @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b51ad368-cb64-4fef-ad71-ba1309d21aa0-attachment.png' type='image/png' size='201502'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701048796985' status='failed' stop='1701048895975'>
+            <name>TDA-570 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Layanan Bengkel - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-570 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Layanan Bengkel - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='25de88af-14d6-44c5-bf0e-f76d0c167ee4-attachment.png' type='image/png' size='195187'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("NANTI SAJA")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("NANTI SAJA")") still not displayed after 90000ms
+                    at async BaseScreen.loginEmailCloseVerif (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:128:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\WorkshopService\app.E2eWorkshopService.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701048895978' status='failed' stop='1701048986458'>
+            <name>TDA-572 - Sebagai Customer, saya dapat melakukan pencarian data kendaraan berdasarkan plat nomor polisi berdasarkan list kendaraan ketika melakukan booking service Layanan Bengkel - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-572 - Sebagai Customer, saya dapat melakukan pencarian data kendaraan berdasarkan plat nomor polisi berdasarkan list kendaraan ketika melakukan booking service Layanan Bengkel - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4d7f4556-ea92-4bca-abc4-8a3f30540668-attachment.png' type='image/png' size='194528'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "android=text("Cari berdasarkan nomor polisi ...")" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "android=text("Cari berdasarkan nomor polisi ...")" because element wasn't found
+                    at async kategoriWorkshop.doCariKendaraan (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.workshop.screen.ts:142:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\WorkshopService\app.E2eWorkshopService.ts:37:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701048986459' status='failed' stop='1701049077055'>
+            <name>TDA-569 - Sebagai Customer, saya akan melakukan input kendaraan terlebih dahulu dengan memilih kendaraan sebelum melanjutkan ke section form berikutnya ketika melakukan booking service Layanan Bengkel dengan journey booking terbaru - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-569 - Sebagai Customer, saya akan melakukan input kendaraan terlebih dahulu dengan memilih kendaraan sebelum melanjutkan ke section form berikutnya ketika melakukan booking service Layanan Bengkel dengan journey booking terbaru - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='36e32a50-ebd7-47ff-bedc-95842228271f-attachment.png' type='image/png' size='195807'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms
+                    at async kategoriWorkshop.verifyScreenIsidataDirianda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.workshop.screen.ts:160:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\WorkshopService\app.E2eWorkshopService.ts:42:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

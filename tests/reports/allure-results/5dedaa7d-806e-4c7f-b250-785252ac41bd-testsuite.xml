@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700711632975' stop='1700711659910'>
+    <name>Journey Kategori Body Paint</name>
+    <title>Journey Kategori Body Paint</title>
+    <test-cases>
+        <test-case start='1700711632976' status='passed' stop='1700711659909'>
+            <name>@TDA-1338 - As a user i can access body paint from sticky menu service - @lcsmoehr0020 @sit @uat</name>
+            <title>@TDA-1338 - As a user i can access body paint from sticky menu service - @lcsmoehr0020 @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2ff83e0b-c621-4975-a291-d985e5af38fc-attachment.png' type='image/png' size='207373'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

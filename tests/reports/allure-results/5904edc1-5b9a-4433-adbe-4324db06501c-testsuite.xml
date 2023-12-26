@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701025270131' stop='1701025379859'>
+    <name>Section Kategori -  Order Aksesoris - Kartu Kredit</name>
+    <title>Section Kategori -  Order Aksesoris - Kartu Kredit</title>
+    <test-cases>
+        <test-case start='1701025270133' status='passed' stop='1701025299238'>
+            <name>as user i can see screen Aksesoris @lcsmoehr0020 @uat @sit</name>
+            <title>as user i can see screen Aksesoris @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7fc7094f-983c-42b9-a253-384e3173486a-attachment.png' type='image/png' size='606422'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701025299240' status='failed' stop='1701025379857'>
+            <name>TDA-967 - Sebagai Customer, saya dapat melakukan order Aksesoris menggunakan metode pembayaran Kartu Kredit - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-967 - Sebagai Customer, saya dapat melakukan order Aksesoris menggunakan metode pembayaran Kartu Kredit - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4112b810-2883-414c-989f-07f30b3e5647-attachment.png' type='image/png' size='307278'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

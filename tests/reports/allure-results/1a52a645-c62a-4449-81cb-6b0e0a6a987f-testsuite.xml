@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700695877306' stop='1700696024842'>
+    <name>Filter Mobil Baru</name>
+    <title>Filter Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700695877307' status='passed' stop='1700695901371'>
+            <name>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</name>
+            <title>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='27e76377-30b9-460c-960b-ac3a155e4a2f-attachment.png' type='image/png' size='335941'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700695901373' status='passed' stop='1700695907503'>
+            <name>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</name>
+            <title>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='df7f78b5-03f5-4089-81ab-07a0677c9f66-attachment.png' type='image/png' size='178628'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700695907504' status='passed' stop='1700695921940'>
+            <name>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</name>
+            <title>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='67fbe927-3af2-45f6-b8ce-a2349f316a9a-attachment.png' type='image/png' size='529833'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700695921956' status='passed' stop='1700695933668'>
+            <name>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</name>
+            <title>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='200c281a-2905-442e-a548-1379f5fe4ddc-attachment.png' type='image/png' size='102959'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700695933669' status='pending' stop='1700695933669'>
+            <name>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @sit</name>
+            <title>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700695933670' status='failed' stop='1700696024839'>
+            <name>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat </name>
+            <title>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fc6691ea-b825-4a0c-b24c-3fa907cd6d9f-attachment.png' type='image/png' size='446771'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "//*[@text="Batal"]/parent::*/preceding-sibling::*//android.widget.EditText" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[@text="Batal"]/parent::*/preceding-sibling::*//android.widget.EditText" because element wasn't found
+                    at async PermissionScreen.searchAndValidationSuggestion (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\search.screen.ts:71:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.filterMobilBaru.ts:49:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700530316888' stop='1700530446663'>
+    <name>Journey Branch Page</name>
+    <title>Journey Branch Page</title>
+    <test-cases>
+        <test-case start='1700530316889' status='passed' stop='1700530366045'>
+            <name>@TDA-427, Sebagai customer saya dapat melihat cabang sekitarmu di Homepage @sit @uat</name>
+            <title>@TDA-427, Sebagai customer saya dapat melihat cabang sekitarmu di Homepage @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b37b59eb-b84c-4d19-ac3c-0fbf11bec27f-attachment.png' type='image/png' size='932350'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700530366046' status='passed' stop='1700530446662'>
+            <name>@TDA-429, Sebagai customer saya dapat melihat detail salah satu lokasi disekitar saya @uat @sit</name>
+            <title>@TDA-429, Sebagai customer saya dapat melihat detail salah satu lokasi disekitar saya @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8be8b2bd-0e47-446f-b1ec-06c1a12575b4-attachment.png' type='image/png' size='437960'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

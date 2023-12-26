@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700723082550' stop='1700723111296'>
+    <name>Journey Kategori Home Service</name>
+    <title>Journey Kategori Home Service</title>
+    <test-cases>
+        <test-case start='1700723082551' status='passed' stop='1700723111294'>
+            <name>@TDA-1339 - As a user i can access home service from sticky menu service - @lcsmoehr0020 @uat @sit</name>
+            <title>@TDA-1339 - As a user i can access home service from sticky menu service - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9c75ea78-6175-4a4a-97c0-2532f93bf64b-attachment.png' type='image/png' size='196287'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

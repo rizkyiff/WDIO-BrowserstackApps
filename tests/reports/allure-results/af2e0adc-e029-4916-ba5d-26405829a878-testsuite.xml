@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700708426046' stop='1700708466785'>
+    <name>Journey Kategori Used Car</name>
+    <title>Journey Kategori Used Car</title>
+    <test-cases>
+        <test-case start='1700708426048' status='passed' stop='1700708466783'>
+            <name>TDA-1336 - As a user i can see screen PDP Used Car @uat @sit</name>
+            <title>TDA-1336 - As a user i can see screen PDP Used Car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='72f26e58-b99f-40ed-891a-a80663f4421c-attachment.png' type='image/png' size='178062'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

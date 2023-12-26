@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702875389463' stop='1702875404191'>
+    <name>TOEA-15 - Service Slot Booking Assistant</name>
+    <title>TOEA-15 - Service Slot Booking Assistant</title>
+    <test-cases>
+        <test-case start='1702875389465' status='failed' stop='1702875404182'>
+            <name>TDA-432 - Sebagai customer saya dapat melakukan booking service pada halaman detail cabang @uat @sit</name>
+            <title>TDA-432 - Sebagai customer saya dapat melakukan booking service pada halaman detail cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+                        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:22:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.bookWorkshopService.ts:17:9)
+                --- End of stack trace ---
+                
+                    unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                        at async HomeScreen.tapLihatCabangSekitar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:249:52)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.bookWorkshopService.ts:22:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    unknown error: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+                        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:22:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.bookWorkshopService.ts:17:9)
+                --- End of stack trace ---
+                
+                    unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                        at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                        at async HomeScreen.tapLihatCabangSekitar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:249:52)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.bookWorkshopService.ts:22:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

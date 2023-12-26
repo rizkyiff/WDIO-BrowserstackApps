@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700517437333' stop='1700517599908'>
+    <name>Minta Penawaran and Ajukan Pertanyaan from Branch</name>
+    <title>Minta Penawaran and Ajukan Pertanyaan from Branch</title>
+    <test-cases>
+        <test-case start='1700517437334' status='pending' stop='1700517437335'>
+            <name>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @sit</name>
+            <title>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700517437335' status='failed' stop='1700517599904'>
+            <name>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @uat</name>
+            <title>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6e37598e-59e0-4be9-8e87-50f23aad5800-attachment.png' type='image/png' size='219822'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("VERIFIKASI OTP")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("VERIFIKASI OTP")") still not displayed after 90000ms
+                    at async BranchPage.mintaPenawaranSubmit (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\branch.screen.ts:180:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.mintaPenawaran.ts:50:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700517599906' status='pending' stop='1700517599907'>
+            <name>@TDA-430, Sebagai customer saya dapat melakukan pengisian minta penawaran pada halaman detail cabang @sit</name>
+            <title>@TDA-430, Sebagai customer saya dapat melakukan pengisian minta penawaran pada halaman detail cabang @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

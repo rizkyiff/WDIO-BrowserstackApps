@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1703033788870' stop='1703033866929'>
+    <name>Berita &amp; Tips</name>
+    <title>Berita &amp; Tips</title>
+    <test-cases>
+        <test-case start='1703033788871' status='passed' stop='1703033866926'>
+            <name>@TDA-1345 - As a user i can see Berita &amp; Tips in homepage @uat @sit</name>
+            <title>@TDA-1345 - As a user i can see Berita &amp; Tips in homepage @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5556-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='67de3f02-e4d5-491d-b0f5-b7242136353f-attachment.png' type='image/png' size='621592'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

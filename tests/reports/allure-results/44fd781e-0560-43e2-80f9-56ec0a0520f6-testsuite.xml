@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702251777693' stop='1702251976784'>
+    <name>Journey Kategori Used Car</name>
+    <title>Journey Kategori Used Car</title>
+    <test-cases>
+        <test-case start='1702251777695' status='failed' stop='1702251976777'>
+            <name>@TDA-281, Sebagai customer, saya dapat mengurutkan unit used car berdasarkan abjad maupun harga @uat @sit</name>
+            <title>@TDA-281, Sebagai customer, saya dapat mengurutkan unit used car berdasarkan abjad maupun harga @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='38202246-3be4-4776-bc6e-e370dfc4e9d8-attachment.png' type='image/png' size='471038'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:52:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.sortByUsedCar.ts:11:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("URUTKAN")" because element wasn't found
+                        at async UsedCar.journeySortby (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.usedcar.screen.ts:126:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.sortByUsedCar.ts:17:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:52:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.sortByUsedCar.ts:11:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("URUTKAN")" because element wasn't found
+                        at async UsedCar.journeySortby (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.usedcar.screen.ts:126:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.sortByUsedCar.ts:17:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

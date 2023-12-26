@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700708918156' stop='1700708949426'>
+    <name>Journey Order Saya</name>
+    <title>Journey Order Saya</title>
+    <test-cases>
+        <test-case start='1700708918156' status='passed' stop='1700708949425'>
+            <name>TDA-903 - As user i can see screen Order Saya from sticky menu @uat @sit</name>
+            <title>TDA-903 - As user i can see screen Order Saya from sticky menu @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42da6c88-8d58-4dbb-a64e-0dbd21395bca-attachment.png' type='image/png' size='224371'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

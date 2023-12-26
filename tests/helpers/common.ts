@@ -1,0 +1,20 @@
+export const setUiSelectorByIndex = (selector: string) => `android=index(${selector})`;
+export const setUiSelectorById = (selector: string) => `android=resourceId("com.android.permission  controller:id/${selector}")`;
+export const setUiSelectorByIdAndIndex = (selector: string, selector2: string) => `android=resourceId("id.astra.store.dev:id/${selector}").index(${selector2})`;
+export const setUiSelectorByIdAndClassAndIndex = (selector: string, selector2: string, selector3: string) => `android=resourceId("id.astra.store.dev:id/${selector}").className("${selector2}").index(${selector3})`;
+export const setUiSelectorByText = (selector: string) => `android=text("${selector}")`;
+export const setUiSelectorByClassName = (selector: string) => `android=className("${selector}")`;
+export const setUiSelectorByClassAndIndex = (selector: string, selector2: string) => `android=className("${selector}").index(${selector2})`;
+export const setUiSelectorByIdAndChild = (selector: string, selector2: string) => `android=resourceId("id.astra.adp.astraku:id/${selector}").childSelector(new UiSelector().className("${selector2}"))`;
+export const setUiSelectorByIdAndChildId = (selector: string, selector2: string) => `android=resourceId("id.astra.adp.astraku:id/${selector}").childSelector(new UiSelector().resourceId("id.astra.adp.astraku:id/${selector2}"))`;
+export const setUiSelectorByElementId = (selector: string) => `android=elementId("${selector}")`;
+
+export const setXpathButtonById = (id: string) => `//android.widget.Button[@resource-id="id.astra.store.dev:id/${id}"]`;
+export const setXpathLinearLayoutById = (id: string) => `//android.widget.LinearLayout[@resource-id="id.astra.store.dev:id/${id}"]`;
+export const setXpathLinearLayoutByContent = (content: string) => `//android.widget.LinearLayout[@content-desc="${content}"]`;
+export const setXpathTextViewById = (id: string) => `//android.widget.TextView[@resource-id="id.astra.store.dev:id/${id}"]`;
+export const setXpathContentDesc = (content: string) => `//android.view.ViewGroup[@content-desc="${content}"]`;
+export const setXpathContentDescAndId = (content: string, id: string) => `//android.view.ViewGroup[@content-desc="${content}"].resourceId("id.astra.adp.astraku:id/${id}")`;
+export const setXpathContentDescImage = (id: string) => `//android.widget.ImageView[@content-desc="${id}"]`;
+export const setXpathContentDescFrame = (content: string) => `//android.widget.FrameLayout[@content-desc="${content}"]`;
+export const setXpathSelectorByResourceId = (content: string) => `//*[@resource-id="${content}"]`;

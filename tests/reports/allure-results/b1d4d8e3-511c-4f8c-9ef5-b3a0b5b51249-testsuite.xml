@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700538089866' stop='1700538466935'>
+    <name>TDA-235 - Homepage Rejuvenation Fitur Search</name>
+    <title>TDA-235 - Homepage Rejuvenation Fitur Search</title>
+    <test-cases>
+        <test-case start='1700538089867' status='failed' stop='1700538206882'>
+            <name>TDA-413 - Sebagai guest, saya dapat melakukan pencarian produk paket servis - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-413 - Sebagai guest, saya dapat melakukan pencarian produk paket servis - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='588620a3-96b7-40c9-b591-ae4b54721148-attachment.png' type='image/png' size='510416'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-search" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-search" because element wasn't found
+                    at async PermissionScreen.searchAndValidationSuggestion (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\search.screen.ts:71:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\SearchGlobal\app.searchGlobalPlp.ts:12:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700538206886' status='passed' stop='1700538234708'>
+            <name>TDA-523 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk melakukan pencarian dan akan menampilkan suggestion berdasarkan product dan fitur yang ada pada auto2000 dengan jumlah keyword lebih besar sama dengan 3 karakter - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-523 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk melakukan pencarian dan akan menampilkan suggestion berdasarkan product dan fitur yang ada pada auto2000 dengan jumlah keyword lebih besar sama dengan 3 karakter - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f97c83df-ddef-4bbe-9f96-4d91c4f725e7-attachment.png' type='image/png' size='492700'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700538234710' status='failed' stop='1700538350653'>
+            <name>TDA-524 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan fitur yang ada pada auto2000 dan akan mengarah ke PLP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-524 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan fitur yang ada pada auto2000 dan akan mengarah ke PLP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b748ecff-abe2-4462-baad-173fb3041912-attachment.png' type='image/png' size='146063'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Trade In")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Trade In")]") still not displayed after 90000ms
+                    at async PermissionScreen.searchKeywordPlp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\search.screen.ts:51:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\SearchGlobal\app.searchGlobalPlp.ts:18:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700538350666' status='failed' stop='1700538466932'>
+            <name>TDA-525 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan nama product yang ada pada auto2000 dan akan mengarah ke PDP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-525 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan nama product yang ada pada auto2000 dan akan mengarah ke PDP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='43cfcd07-8f93-4259-a04d-bd0af10426be-attachment.png' type='image/png' size='145166'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Trade In")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Trade In")]") still not displayed after 90000ms
+                    at async PermissionScreen.searchKeywordPlp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\search.screen.ts:51:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\SearchGlobal\app.searchGlobalPlp.ts:21:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

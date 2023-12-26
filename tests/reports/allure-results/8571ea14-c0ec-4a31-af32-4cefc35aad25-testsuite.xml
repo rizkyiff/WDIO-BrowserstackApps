@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700513150774' stop='1700513184280'>
+    <name>Sebagai customer, Saya dapat melihat page Aksesoris Kupon Servis melalui Aksesoris Kupon Servis di Homepage</name>
+    <title>Sebagai customer, Saya dapat melihat page Aksesoris Kupon Servis melalui Aksesoris Kupon Servis di Homepage</title>
+    <test-cases>
+        <test-case start='1700513150775' status='passed' stop='1700513184278'>
+            <name>@TDA-1352 - Sebagai customer, saya bisa melihat section Aksesoris Kupon Servis di homepage - @uat @sit</name>
+            <title>@TDA-1352 - Sebagai customer, saya bisa melihat section Aksesoris Kupon Servis di homepage - @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9ab78652-83ca-4994-85d6-6adf96e2f42d-attachment.png' type='image/png' size='603143'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

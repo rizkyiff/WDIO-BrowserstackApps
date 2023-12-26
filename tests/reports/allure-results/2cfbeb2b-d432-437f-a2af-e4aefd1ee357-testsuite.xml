@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701654689155' stop='1701654812802'>
+    <name>Journey Kategori Used Car</name>
+    <title>Journey Kategori Used Car</title>
+    <test-cases>
+        <test-case start='1701654689155' status='failed' stop='1701654812800'>
+            <name>@TDA-281, Sebagai customer, saya dapat mengurutkan unit used car berdasarkan abjad maupun harga @uat @sit</name>
+            <title>@TDA-281, Sebagai customer, saya dapat mengurutkan unit used car berdasarkan abjad maupun harga @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6712e2fd-8d82-41df-974e-bf3931e87540-attachment.png' type='image/png' size='168391'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:140:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)
+                    at async Function.customCheckElementSwipe (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:137:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

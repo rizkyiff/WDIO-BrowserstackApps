@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700707805487' stop='1700707992757'>
+    <name>Journey Kategori Used Car</name>
+    <title>Journey Kategori Used Car</title>
+    <test-cases>
+        <test-case start='1700707805488' status='passed' stop='1700707841275'>
+            <name>@TDA-277, Sebagai customer, saya dapat melihat list used car @uat @sit</name>
+            <title>@TDA-277, Sebagai customer, saya dapat melihat list used car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='94ca8b4c-428f-4929-b645-d9bfe1ee0785-attachment.png' type='image/png' size='664889'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700707841278' status='failed' stop='1700707992737'>
+            <name>TDA-279, Sebagai customer, saya dapat memfilter list used car yang saya inginkan @uat @sit</name>
+            <title>TDA-279, Sebagai customer, saya dapat memfilter list used car yang saya inginkan @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2c4873ef-58c0-4107-b99f-b3ddb811a291-attachment.png' type='image/png' size='640657'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Toyota Sienna")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Toyota Sienna")]") still not displayed after 90000ms
+                    at async UsedCarSortfilter.verifyFilter (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\usedcar.sortfilter.screen.ts:164:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.filterUsedCar.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700707992739' status='pending' stop='1700707992740'>
+            <name>@TDA-278, Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list certified used car tersebut @sit</name>
+            <title>@TDA-278, Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list certified used car tersebut @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700707992756' status='pending' stop='1700707992756'>
+            <name>@TDA-280, Sebagai customer, saya dapat memfilter list used car yang saya inginkan secara langsung melalui tab kategori filter @sit</name>
+            <title>@TDA-280, Sebagai customer, saya dapat memfilter list used car yang saya inginkan secara langsung melalui tab kategori filter @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

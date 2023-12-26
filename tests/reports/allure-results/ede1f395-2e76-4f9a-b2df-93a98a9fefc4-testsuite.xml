@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701224082852' stop='1701224193731'>
+    <name>Journey Daftar</name>
+    <title>Journey Daftar</title>
+    <test-cases>
+        <test-case start='1701224082856' status='failed' stop='1701224193729'>
+            <name>TDA-885, as user i can see screen Daftar @uat @sit</name>
+            <title>TDA-885, as user i can see screen Daftar @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='15185a75-f510-45aa-b021-0b56deaeaa21-attachment.png' type='image/png' size='159220'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Nama Anda *")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Nama Anda *")") still not displayed after 90000ms
+                    at async FormDaftar.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\daftar.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.journeyDaftar.ts:14:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

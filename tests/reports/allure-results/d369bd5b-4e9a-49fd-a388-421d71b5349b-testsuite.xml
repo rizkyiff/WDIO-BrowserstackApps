@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700543527405' stop='1700543580171'>
+    <name>Home Screen</name>
+    <title>Home Screen</title>
+    <test-cases>
+        <test-case start='1700543527405' status='passed' stop='1700543580161'>
+            <name>TDA-886, a user should be able to see home screen @uat</name>
+            <title>TDA-886, a user should be able to see home screen @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ef8bfb4d-e7a1-49d8-b7c5-561bbaab4a0d-attachment.png' type='image/png' size='942770'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700543580162' status='pending' stop='1700543580163'>
+            <name>TDA-886, a user should be able to see home screen @sit </name>
+            <title>TDA-886, a user should be able to see home screen @sit </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

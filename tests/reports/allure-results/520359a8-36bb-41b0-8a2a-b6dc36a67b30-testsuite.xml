@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700722863357' stop='1700722884956'>
+    <name>Sticky Menu - Journey Kategori Aksesoris</name>
+    <title>Sticky Menu - Journey Kategori Aksesoris</title>
+    <test-cases>
+        <test-case start='1700722863358' status='passed' stop='1700722884954'>
+            <name>@TDA-1340 - As a user i can access accessories page from sticky menu shop @sit @uat</name>
+            <title>@TDA-1340 - As a user i can access accessories page from sticky menu shop @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='794ba721-f5dc-486f-bf11-738eca1020ca-attachment.png' type='image/png' size='601454'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

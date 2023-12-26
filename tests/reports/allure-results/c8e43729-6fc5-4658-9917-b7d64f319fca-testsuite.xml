@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700516827206' stop='1700517371079'>
+    <name>Homepage Cabang Disekitarmu</name>
+    <title>Homepage Cabang Disekitarmu</title>
+    <test-cases>
+        <test-case start='1700516827211' status='passed' stop='1700516878413'>
+            <name>@TDA-458, Sebagai Customer, saya akan melihat cabang sekitarmu pada halaman homepage @sit @uat</name>
+            <title>@TDA-458, Sebagai Customer, saya akan melihat cabang sekitarmu pada halaman homepage @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b5c41ba7-69ad-412f-9583-3c633c4945db-attachment.png' type='image/png' size='936393'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700516878415' status='passed' stop='1700516938610'>
+            <name>@TDA-462, Sebagai Customer, saya dapat mengetahui nomor telepon cabang untuk memperoleh informasi detail dan juga dapat menghubungi salesman lewat whatsapp @sit @uat</name>
+            <title>@TDA-462, Sebagai Customer, saya dapat mengetahui nomor telepon cabang untuk memperoleh informasi detail dan juga dapat menghubungi salesman lewat whatsapp @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='795e623d-a6ed-4508-965d-bc8c7d030ddb-attachment.png' type='image/png' size='252052'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700516938611' status='failed' stop='1700517077418'>
+            <name>@TDA-461, Sebagai Customer, saya dapat mengetahui list provinsi dan list kota dengan icon dan copywrite deskripsi serta akan menampilkan cabang pada saat mengubah menjadi tampilkan Peta @sit @uat</name>
+            <title>@TDA-461, Sebagai Customer, saya dapat mengetahui list provinsi dan list kota dengan icon dan copywrite deskripsi serta akan menampilkan cabang pada saat mengubah menjadi tampilkan Peta @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='79e41301-a966-4abc-b5b2-3ee1c5724933-attachment.png' type='image/png' size='99749'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//android.widget.ScrollView//android.widget.ScrollView") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//android.widget.ScrollView//android.widget.ScrollView") still not displayed after 90000ms
+                    at async HomeScreen.tapLihatCabangSekitar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:253:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.cabangSekitar.ts:30:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700517077422' status='passed' stop='1700517165270'>
+            <name>@TDA-463, Sebagai Customer, saya dapat mengetahui informasi detail cabang dan promo/ event cabang tersebut @sit @uat</name>
+            <title>@TDA-463, Sebagai Customer, saya dapat mengetahui informasi detail cabang dan promo/ event cabang tersebut @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='529b6f24-1c49-4f19-91b9-363197750d5e-attachment.png' type='image/png' size='483523'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700517165271' status='passed' stop='1700517232935'>
+            <name>@TDA-466, Sebagai customer saya dapat direct ke booking service pada page detail cabang @sit @uat</name>
+            <title>@TDA-466, Sebagai customer saya dapat direct ke booking service pada page detail cabang @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ef1a701a-9a60-4775-ab7f-06f595bb1cb9-attachment.png' type='image/png' size='384039'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700517232937' status='failed' stop='1700517371077'>
+            <name>@TDA-467, Sebagai customer saya dapat melihat informasi produk mobil baru yang trend saat ini pada page detail cabang @sit @uat</name>
+            <title>@TDA-467, Sebagai customer saya dapat melihat informasi produk mobil baru yang trend saat ini pada page detail cabang @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5f17426f-a3a2-487d-b6b7-bf72a55cb210-attachment.png' type='image/png' size='437154'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

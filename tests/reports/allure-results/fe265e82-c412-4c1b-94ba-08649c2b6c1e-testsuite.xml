@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700610290628' stop='1700610329185'>
+    <name>Search Aksesoris</name>
+    <title>Search Aksesoris</title>
+    <test-cases>
+        <test-case start='1700610290629' status='passed' stop='1700610322436'>
+            <name>TDA-626 - Sebagai Customer, saya dapat melakukan pencarian aksesoris pada plp aksesoris @uat</name>
+            <title>TDA-626 - Sebagai Customer, saya dapat melakukan pencarian aksesoris pada plp aksesoris @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='38e0a821-f218-44e9-a998-93465e42fb42-attachment.png' type='image/png' size='469447'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700610322437' status='passed' stop='1700610329184'>
+            <name>TDA-625 - Sebagai Customer, saya akan melihat tampilan "Pencarian tidak ditemukan" apabila filter pencarian pada plp accs dan kupon servis tidak ditemukan @uat</name>
+            <title>TDA-625 - Sebagai Customer, saya akan melihat tampilan "Pencarian tidak ditemukan" apabila filter pencarian pada plp accs dan kupon servis tidak ditemukan @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3ab63dd6-61dd-4177-b9a8-40041b83de96-attachment.png' type='image/png' size='285513'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

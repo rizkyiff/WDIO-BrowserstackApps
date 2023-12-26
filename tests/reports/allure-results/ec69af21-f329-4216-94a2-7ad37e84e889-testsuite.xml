@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1703210030251' stop='1703210078003'>
+    <name>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar </name>
+    <title>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar </title>
+    <test-cases>
+        <test-case start='1703210030252' status='failed' stop='1703210078001'>
+            <name>check location</name>
+            <title>check location</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "~com.android.permissioncontroller:id/permission_allow_foreground_only_button" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~com.android.permissioncontroller:id/permission_allow_foreground_only_button" because element wasn't found
+                    at async HomeScreen.doRelocate (G:\tfs\latest\gMaps\GMaps\tests\screenobjects\homescreen.ts:15:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\gMaps\GMaps\tests\scenarios\app.homescreen.ts:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

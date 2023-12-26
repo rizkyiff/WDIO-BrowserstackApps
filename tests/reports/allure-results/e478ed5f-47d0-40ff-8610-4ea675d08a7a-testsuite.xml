@@ -1,0 +1,137 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701671067828' stop='1701671599246'>
+    <name>TDA-857 - Test Drive</name>
+    <title>TDA-857 - Test Drive</title>
+    <test-cases>
+        <test-case start='1701671067829' status='failed' stop='1701671236799'>
+            <name>sebagai user saya bisa melakukan submit menggunakan Rumah Anda @sit @uat</name>
+            <title>sebagai user saya bisa melakukan submit menggunakan Rumah Anda @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a9d5323f-305c-47ad-a852-694d727ccc82-attachment.png' type='image/png' size='449789'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("All New Avanza")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("All New Avanza")") still not displayed after 90000ms
+                    at async kategoriKuponService.doPilihMobil (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.testdrive.screen.ts:116:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:21:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701671236801' status='failed' stop='1701671418272'>
+            <name>TDA-76 - Sebagai user, saya dapat membooking order Test Drive H+2 setelah hari pemesanan @sit @uat</name>
+            <title>TDA-76 - Sebagai user, saya dapat membooking order Test Drive H+2 setelah hari pemesanan @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a04c3993-daba-4f9f-bbdb-1f56acd7ee69-attachment.png' type='image/png' size='449909'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("SKIP")") still not displayed after 90000ms
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:14:9)
+                --- End of stack trace ---
+                
+                    Error: element ("//*[contains(@text,"TD")]") still not displayed after 90000ms
+                        at async kategoriKuponService.doValidasiOrder (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.testdrive.screen.ts:192:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:25:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("SKIP")") still not displayed after 90000ms
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:14:9)
+                --- End of stack trace ---
+                
+                    Error: element ("//*[contains(@text,"TD")]") still not displayed after 90000ms
+                        at async kategoriKuponService.doValidasiOrder (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.testdrive.screen.ts:192:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:25:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701671418278' status='failed' stop='1701671599243'>
+            <name>TDA-81 - Sebagai User, saya dapat mengisi form Submit Test Drive tanpa di dahului login, kemudian Register akun @sit @uat</name>
+            <title>TDA-81 - Sebagai User, saya dapat mengisi form Submit Test Drive tanpa di dahului login, kemudian Register akun @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e75b42b5-d857-4577-8e42-41ece9f23f15-attachment.png' type='image/png' size='449639'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("SKIP")") still not displayed after 90000ms
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:14:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                        at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:35:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("SKIP")") still not displayed after 90000ms
+                        at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                        at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:14:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                        at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:35:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

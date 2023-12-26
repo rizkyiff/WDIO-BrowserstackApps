@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701028372357' stop='1701028587045'>
+    <name>Sebagai customer, Saya dapat page Order Pembelian ketika sudah login </name>
+    <title>Sebagai customer, Saya dapat page Order Pembelian ketika sudah login </title>
+    <test-cases>
+        <test-case start='1701028372361' status='passed' stop='1701028401271'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701028401273' status='failed' stop='1701028496541'>
+            <name>@TDA-920 - Sebagai Customer, tidak dapat menambahkan feedback jika transaksi belum selesai pada aksesoris @sit @uat</name>
+            <title>@TDA-920 - Sebagai Customer, tidak dapat menambahkan feedback jika transaksi belum selesai pada aksesoris @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='315afcf1-c3e0-46d1-8904-16e2a40f2802-attachment.png' type='image/png' size='199154'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Aksesoris")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Aksesoris")") still not displayed after 90000ms
+                    at async OrderPembelianScreen.checkOrderAksesorisUlasan (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.orderpembelian.screen.ts:68:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\OrderPembelian\app.feedbackAksesoris.ts:32:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701028496543' status='failed' stop='1701028587043'>
+            <name>@TDA-919 - Sebagai Customer, dapat mengirimkan feedback dari barang yang sudah dibeli pada aksesoris - @lcsmoehr0020 @sit @uat</name>
+            <title>@TDA-919 - Sebagai Customer, dapat mengirimkan feedback dari barang yang sudah dibeli pada aksesoris - @lcsmoehr0020 @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f96df6b2-811e-4ea1-9e4f-3b891797ee9a-attachment.png' type='image/png' size='199221'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Ulasan")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Ulasan")" because element wasn't found
+                    at async OrderPembelianScreen.verifyScreenUlasan (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.orderpembelian.screen.ts:86:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\OrderPembelian\app.feedbackAksesoris.ts:35:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

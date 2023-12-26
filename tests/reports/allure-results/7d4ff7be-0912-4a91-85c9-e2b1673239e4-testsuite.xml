@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700788884555' stop='1700789001516'>
+    <name>TDA-964 - Order Kupon Servis</name>
+    <title>TDA-964 - Order Kupon Servis</title>
+    <test-cases>
+        <test-case start='1700788884555' status='failed' stop='1700789001514'>
+            <name>TDA-972 - Sebagai Customer, saya dapat melakukan order Kupon Service menggunakan metode pembayaran AstraPay - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-972 - Sebagai Customer, saya dapat melakukan order Kupon Service menggunakan metode pembayaran AstraPay - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1504a99e-06bf-4bbc-a026-768f64bc631a-attachment.png' type='image/png' size='224491'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Kupon Check")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Kupon Check")]") still not displayed after 90000ms
+                    at async kategoriKuponService.verifyDetailCheck (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.kupon.service.ts:236:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\KuponService\app.orderKuponServiceAstraPay.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

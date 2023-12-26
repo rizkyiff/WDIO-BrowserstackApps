@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670571974325' stop='1670571974346'>
+    <name>Journey Login</name>
+    <title>Journey Login</title>
+    <test-cases>
+        <test-case start='1670571974329' status='passed' stop='1670571974340'>
+            <name>as user i can see screen login</name>
+            <title>as user i can see screen login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-3'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1671504070693' stop='1671504140812'>
+    <name>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar</name>
+    <title>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar</title>
+    <test-cases>
+        <test-case start='1671504070694' status='passed' stop='1671504091503'>
+            <name>as user i can see screen login</name>
+            <title>as user i can see screen login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1671504091505' status='failed' stop='1671504140810'>
+            <name>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar</name>
+            <title>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "android=text("Kata Sandi")" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "android=text("Kata Sandi")" because element wasn't found
+                    at async FormLogin.inputPassword (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\login.screen.ts:55:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.tda723.ts:22:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

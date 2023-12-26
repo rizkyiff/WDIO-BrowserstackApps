@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700547096273' stop='1700547210571'>
+    <name>Sebagai customer, Saya ingin melakukan Daftar Akun </name>
+    <title>Sebagai customer, Saya ingin melakukan Daftar Akun </title>
+    <test-cases>
+        <test-case start='1700547096274' status='passed' stop='1700547116491'>
+            <name>as user i can see screen login @uat</name>
+            <title>as user i can see screen login @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dbd1364b-1de5-4ad7-954e-615c91da402a-attachment.png' type='image/png' size='96670'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700547116492' status='failed' stop='1700547210561'>
+            <name>@TDA-733 - Sebagai customer, Saya dapat melakukan registrasi @uat</name>
+            <title>@TDA-733 - Sebagai customer, Saya dapat melakukan registrasi @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='101e51fd-33ad-4006-b9f6-ec95deb37c82-attachment.png' type='image/png' size='156010'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "android=text("Alamat Email *")" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "android=text("Alamat Email *")" because element wasn't found
+                    at async FormDaftar.inputAlamat (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\daftar.screen.ts:73:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.daftar.ts:21:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700547210563' status='pending' stop='1700547210564'>
+            <name>as user i can see screen login @sit</name>
+            <title>as user i can see screen login @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700547210569' status='pending' stop='1700547210570'>
+            <name>Sebagai customer, Saya dapat melakukan registrasi dengan nomor hp @sit</name>
+            <title>Sebagai customer, Saya dapat melakukan registrasi dengan nomor hp @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

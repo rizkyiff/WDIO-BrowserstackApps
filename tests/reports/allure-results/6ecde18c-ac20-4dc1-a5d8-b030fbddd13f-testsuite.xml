@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700645761431' stop='1700645903380'>
+    <name>Journey PDP Mobil Baru</name>
+    <title>Journey PDP Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700645761431' status='passed' stop='1700645785141'>
+            <name>as user i can see screen Mobil baru @sit @uat</name>
+            <title>as user i can see screen Mobil baru @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='eaf49749-81a1-4c6a-98be-95b258cdfdfc-attachment.png' type='image/png' size='374429'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700645785143' status='pending' stop='1700645785144'>
+            <name>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @sit</name>
+            <title>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700645785144' status='failed' stop='1700645903367'>
+            <name>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @uat</name>
+            <title>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8ed4614b-b67e-432d-8113-3493770a8c55-attachment.png' type='image/png' size='295214'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Mesin")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Mesin")") still not displayed after 90000ms
+                    at async pdpMobilBaru.verifySpesifikasi (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:246:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.journeyPdp.ts:34:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

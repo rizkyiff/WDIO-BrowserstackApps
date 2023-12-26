@@ -1,0 +1,77 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701400363060' stop='1701400542676'>
+    <name>TDA-567 - Body Paint</name>
+    <title>TDA-567 - Body Paint</title>
+    <test-cases>
+        <test-case start='1701400363061' status='passed' stop='1701400391928'>
+            <name>TDA-578 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Bodi Paint apabila saya belum login - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-578 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Bodi Paint apabila saya belum login - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a5d57d81-e400-4e77-a199-09708e3dcee6-attachment.png' type='image/png' size='97381'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701400391931' status='failed' stop='1701400490938'>
+            <name>TDA-582 - Sebagai Customer Dapat melakukan pencarian berdasarkan Plat Nomor Polisi ketika melakukan booking service Bodi Paint - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-582 - Sebagai Customer Dapat melakukan pencarian berdasarkan Plat Nomor Polisi ketika melakukan booking service Bodi Paint - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7e080235-a1e2-4a2c-b6d9-976231901d48-attachment.png' type='image/png' size='202651'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("NANTI SAJA")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("NANTI SAJA")" because element wasn't found
+                    at async PermissionScreen.tapBtnNantiSaja (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\permission.screen.ts:32:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\BodyPaint\app.E2eBodyPaint.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701400490940' status='passed' stop='1701400529075'>
+            <name>TDA-580 - Sebagai Customer Dapat menambahkan mobil ketika melakukan booking service Bodi Paint - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-580 - Sebagai Customer Dapat menambahkan mobil ketika melakukan booking service Bodi Paint - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cbd7e64c-ca41-4784-a25b-ef9883cf848c-attachment.png' type='image/png' size='136358'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701400529092' status='passed' stop='1701400542675'>
+            <name>TDA-581 - Sebagai Customer Dapat mengubah/edit mobil ketika melakukan booking service Bodi Paint - @sit @uat @lcsmoehr0020</name>
+            <title>TDA-581 - Sebagai Customer Dapat mengubah/edit mobil ketika melakukan booking service Bodi Paint - @sit @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7b8c59c1-a99a-45aa-b3d1-de3fc82ba43d-attachment.png' type='image/png' size='173764'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

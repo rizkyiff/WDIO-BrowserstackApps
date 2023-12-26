@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700646128150' stop='1700646172106'>
+    <name>Journey PDP Mobil Baru</name>
+    <title>Journey PDP Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700646128151' status='passed' stop='1700646152788'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700646152790' status='pending' stop='1700646152791'>
+            <name>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @sit</name>
+            <title>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700646152792' status='passed' stop='1700646172104'>
+            <name>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @uat</name>
+            <title>TDA-1100 - Sebagai custommer, diarahkan menuju halaman PDP Mobil Baru @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd3227e9-598b-41a1-9b9a-ece1f1ba706c-attachment.png' type='image/png' size='816367'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

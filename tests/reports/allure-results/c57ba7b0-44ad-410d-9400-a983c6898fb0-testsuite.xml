@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670836377959' stop='1670836435294'>
+    <name>Journey Login Kebijakan Privasi</name>
+    <title>Journey Login Kebijakan Privasi</title>
+    <test-cases>
+        <test-case start='1670836377960' status='failed' stop='1670836435291'>
+            <name>as user i can see screen login and page Kebijakan Privasi</name>
+            <title>as user i can see screen login and page Kebijakan Privasi</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                    at async HomeScreen.tapBtnAccount (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\home.screen.ts:14:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.login.kebijakan.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

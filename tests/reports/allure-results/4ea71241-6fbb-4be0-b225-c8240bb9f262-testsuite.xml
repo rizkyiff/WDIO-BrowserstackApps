@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700729615847' stop='1700729707047'>
+    <name>Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</name>
+    <title>Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1700729615848' status='pending' stop='1700729615849'>
+            <name>as user i can see screen login</name>
+            <title>as user i can see screen login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700729615849' status='failed' stop='1700729707032'>
+            <name>as user already login , can see screen profile @sit @uat</name>
+            <title>as user already login , can see screen profile @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8388b921-70ad-40e5-97fa-57267ab5198c-attachment.png' type='image/png' size='309559'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                    at async profileloggedScreen.tapBtnProfile (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:55:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyEditKendaraanSaya.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700729707034' status='pending' stop='1700729707035'>
+            <name>@TDA-1053 - Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</name>
+            <title>@TDA-1053 - Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,84 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700513281269' stop='1700513421587'>
+    <name>Ajukan Pertanyaan from Branch</name>
+    <title>Ajukan Pertanyaan from Branch</title>
+    <test-cases>
+        <test-case start='1700513281270' status='passed' stop='1700513354595'>
+            <name>@TDA-431, Sebagai customer saya dapat melakukan pengisian ajukan pertanyaan pada halaman detail cabang @uat @sit</name>
+            <title>@TDA-431, Sebagai customer saya dapat melakukan pengisian ajukan pertanyaan pada halaman detail cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps>
+                <step start='1700513281271' status='passed' stop='1700513303118'>
+                    <name>Precondition</name>
+                    <title>Precondition</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1700513303118' status='passed' stop='1700513313574'>
+                    <name>Pilih kota</name>
+                    <title>Pilih kota</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1700513313574' status='passed' stop='1700513354121'>
+                    <name>scroll ke cabang sekitar</name>
+                    <title>scroll ke cabang sekitar</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1700513334403' status='passed' stop='1700513334403'>
+                            <name>Klik salah satu branch</name>
+                            <title>Klik salah satu branch</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1700513337740' status='passed' stop='1700513337740'>
+                            <name>Klik ajukan pertanyaan dan isi pertanyaan</name>
+                            <title>Klik ajukan pertanyaan dan isi pertanyaan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1700513353887' status='passed' stop='1700513353887'>
+                            <name>Submit ajukan pertanaan</name>
+                            <title>Submit ajukan pertanaan</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='29cfed35-54f8-41bb-833d-25b724becfbb-attachment.png' type='image/png' size='223265'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700513354597' status='passed' stop='1700513421585'>
+            <name>@TDA-465, Sebagai Customer, saya dapat mengisi formulir pertanyaan ke cabang @uat @sit</name>
+            <title>@TDA-465, Sebagai Customer, saya dapat mengisi formulir pertanyaan ke cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps>
+                <step start='1700513354597' status='passed' stop='1700513375236'>
+                    <name>Precondition</name>
+                    <title>Precondition</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='1112019a-8791-4d6f-8607-75369815ae21-attachment.png' type='image/png' size='223587'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670578481212' stop='1670578542837'>
+    <name>Homepage</name>
+    <title>Homepage</title>
+    <test-cases>
+        <test-case start='1670578481212' status='passed' stop='1670578496729'>
+            <name>Handling Permission</name>
+            <title>Handling Permission</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670578496730' status='failed' stop='1670578542831'>
+            <name>Handling Tutorial </name>
+            <title>Handling Tutorial </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("android=text("Next")") still not displayed after 45000ms</message>
+                <stack-trace>Error: element ("android=text("Next")") still not displayed after 45000ms
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.handlingCrashHomepage.ts:17:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670578542831' status='passed' stop='1670578542833'>
+            <name>as user i can see screen login</name>
+            <title>as user i can see screen login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

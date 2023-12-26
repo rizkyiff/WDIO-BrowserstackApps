@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701677329383' stop='1701677362026'>
+    <name>Login Password</name>
+    <title>Login Password</title>
+    <test-cases>
+        <test-case start='1701677329384' status='passed' stop='1701677362015'>
+            <name>@TDA-1294 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Nomor Telepon dan Password dengan Nomor yang Belum Terdaftar @sit @uat @fixing</name>
+            <title>@TDA-1294 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Nomor Telepon dan Password dengan Nomor yang Belum Terdaftar @sit @uat @fixing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='30da9125-f4a7-49dc-a4d8-77a35f4b2936-attachment.png' type='image/png' size='108200'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701677362021' status='pending' stop='1701677362023'>
+            <name>@TDA-1296 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Email yang Belum Terdaftar @sit @uat</name>
+            <title>@TDA-1296 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Email yang Belum Terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700730194295' stop='1700730398939'>
+    <name>Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</name>
+    <title>Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1700730194296' status='failed' stop='1700730308339'>
+            <name>as user i can see screen login @sit @uat</name>
+            <title>as user i can see screen login @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='28b72b85-1b6b-4ba1-82df-74f01d2c6685-attachment.png' type='image/png' size='835965'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:115:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyEditKendaraanSaya.ts:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700730308341' status='failed' stop='1700730398928'>
+            <name>as user already login , can see screen profile @sit @uat</name>
+            <title>as user already login , can see screen profile @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='15658dbd-dc59-4f7c-8e88-0d6ec091a0fc-attachment.png' type='image/png' size='96876'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Hi Auto Family! Mohon Lengkapi Data Anda")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Hi Auto Family! Mohon Lengkapi Data Anda")") still not displayed after 90000ms
+                    at async profileloggedScreen.verifyScreenPopUp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:61:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyEditKendaraanSaya.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700730398930' status='pending' stop='1700730398931'>
+            <name>@TDA-1053 - Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya @sit uat</name>
+            <title>@TDA-1053 - Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya @sit uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

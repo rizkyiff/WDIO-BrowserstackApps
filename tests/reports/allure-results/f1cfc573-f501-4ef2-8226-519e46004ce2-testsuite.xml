@@ -1,0 +1,61 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701030199876' stop='1701030420345'>
+    <name>Sebagai customer, Saya dapat melihat profile ketika sudah login </name>
+    <title>Sebagai customer, Saya dapat melihat profile ketika sudah login </title>
+    <test-cases>
+        <test-case start='1701030199879' status='passed' stop='1701030244453'>
+            <name>TDA-909, My profile - profile saya @uat @sit</name>
+            <title>TDA-909, My profile - profile saya @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9b7d7a85-851b-4aca-9b1c-488dc49c995a-attachment.png' type='image/png' size='229959'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701030244455' status='passed' stop='1701030286623'>
+            <name>TDA-892, as user already login , can see screen profile @uat @sit</name>
+            <title>TDA-892, as user already login , can see screen profile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a8c2cbce-9573-4630-b3b2-9ecf8e5ce7c2-attachment.png' type='image/png' size='229225'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701030286625' status='failed' stop='1701030420343'>
+            <name>TDA-892, as user already login , can see page Profile Saya @uat @sit</name>
+            <title>TDA-892, as user already login , can see page Profile Saya @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='69769615-380e-4caf-9fc6-098879271c6a-attachment.png' type='image/png' size='173356'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("sit mobilbaru")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("sit mobilbaru")") still not displayed after 90000ms
+                    at async profileSayaScreen.verifyScreenInformasiPribadi (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.profilesaya.screen.ts:42:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.journeyProfileSaya.ts:38:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

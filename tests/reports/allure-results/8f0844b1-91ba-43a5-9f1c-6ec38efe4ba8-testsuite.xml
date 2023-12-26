@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700725973639' stop='1700726257745'>
+    <name>Sebagai customer, Saya dapat menambahkan kendaraan saya di homepage</name>
+    <title>Sebagai customer, Saya dapat menambahkan kendaraan saya di homepage</title>
+    <test-cases>
+        <test-case start='1700725973640' status='failed' stop='1700726257742'>
+            <name>@TDA-728 - Sebagai customer, Sebagai customer, Saya dapat menambahkan kendaraan saya di homepage @uat @sit</name>
+            <title>@TDA-728 - Sebagai customer, Sebagai customer, Saya dapat menambahkan kendaraan saya di homepage @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='80d42432-2437-4ad7-9b11-6be6c8185f99-attachment.png' type='image/png' size='481407'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Kendaraan Berhasil Ditambahkan")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Kendaraan Berhasil Ditambahkan")") still not displayed after 90000ms
+                    at async SimplifyAddVehicle.doTambahKendaraanBaru (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:100:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.homepageTambahKendaraan.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700712057027' stop='1700712289180'>
+    <name>Login OTP</name>
+    <title>Login OTP</title>
+    <test-cases>
+        <test-case start='1700712057027' status='failed' stop='1700712171542'>
+            <name>@TDA-1287 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP SMS dengan Nomor yang Belum Terdaftar @sit @uat</name>
+            <title>@TDA-1287 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP SMS dengan Nomor yang Belum Terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0f0ff438-a19f-412e-80ac-38bda3a05848-attachment.png' type='image/png' size='106490'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found
+                    at async FormLogin.changeMethodeSendOtpBySMS (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:188:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginUnregisteredNumber.ts:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700712171544' status='failed' stop='1700712289178'>
+            <name>@TDA-1286 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP Whatsapp dengan Nomor yang Belum Terdaftar @sit @uat</name>
+            <title>@TDA-1286 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP Whatsapp dengan Nomor yang Belum Terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8dadd536-e8a1-4550-bc1f-ed6d7c13c719-attachment.png' type='image/png' size='105967'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "//*[@text="Tidak menerima kode ?"]/preceding-sibling::android.widget.EditText" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//*[@text="Tidak menerima kode ?"]/preceding-sibling::android.widget.EditText" because element wasn't found
+                    at async FormLogin.inputNoHp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:88:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginUnregisteredNumber.ts:22:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,215 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701026434620' stop='1701027160625'>
+    <name>Order mobil baru pembayaran DP e-wallet @uat</name>
+    <title>Order mobil baru pembayaran DP e-wallet @uat</title>
+    <test-cases>
+        <test-case start='1701026434620' status='failed' stop='1701026615926'>
+            <name>@TDA-864 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet DANA @uat @sit</name>
+            <title>@TDA-864 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet DANA @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cbcc0714-2008-4164-be38-7e30df68004b-attachment.png' type='image/png' size='562626'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:60:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:60:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701026615933' status='failed' stop='1701026797211'>
+            <name>@TDA-866 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet Shopee @uat @sit</name>
+            <title>@TDA-866 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet Shopee @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42070d45-95f3-4ca0-b233-37e2ca8f85e1-attachment.png' type='image/png' size='563084'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:66:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:66:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701026797214' status='failed' stop='1701026979350'>
+            <name>@TDA-867 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet LinkAja @uat @sit</name>
+            <title>@TDA-867 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet LinkAja @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fca8b884-db2c-455a-9662-3f0829827f94-attachment.png' type='image/png' size='563015'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:72:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:72:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701026979353' status='failed' stop='1701027160617'>
+            <name>@TDA-865 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet Ovo @uat @sit</name>
+            <title>@TDA-865 - Sebagai Customer, saya dapat melakukan pembayaran transaksi Mobil baru metode DP dengan menggunakan payment Ewallet Ovo @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='629b02c2-c309-47eb-8405-460e024f7815-attachment.png' type='image/png' size='562524'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:78:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:46:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "android=text("Booking dengan tanda jadi")" because element wasn't found
+                        at async orderMobilbaru.tapBookingPayment (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaruOrderCar.ts:418:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.orderNewCarBookingTandaJadi.ts:78:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

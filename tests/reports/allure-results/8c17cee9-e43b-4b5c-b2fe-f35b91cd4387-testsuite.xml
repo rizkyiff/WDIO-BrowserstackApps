@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670466284070' stop='1670466373954'>
+    <name>login</name>
+    <title>login</title>
+    <test-cases>
+        <test-case start='1670466284074' status='passed' stop='1670466298791'>
+            <name>Handling Permission</name>
+            <title>Handling Permission</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670466298792' status='passed' stop='1670466314303'>
+            <name>Handling Tutorial </name>
+            <title>Handling Tutorial </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670466314303' status='failed' stop='1670466373945'>
+            <name>form login</name>
+            <title>form login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call elementSendKeys on element with selector "android=text("Kata Sandi")" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementSendKeys on element with selector "android=text("Kata Sandi")" because element wasn't found</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

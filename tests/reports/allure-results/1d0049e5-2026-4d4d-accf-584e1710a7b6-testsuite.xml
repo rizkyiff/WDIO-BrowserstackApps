@@ -1,0 +1,111 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700713238942' stop='1700713613019'>
+    <name>Login OTP</name>
+    <title>Login OTP</title>
+    <test-cases>
+        <test-case start='1700713238943' status='failed' stop='1700713426110'>
+            <name>@TDA-1280 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke Whatsapp @sit @uat</name>
+            <title>@TDA-1280 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke Whatsapp @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dd8ffe0f-1a1d-4aef-9937-f2d4ae675516-attachment.png' type='image/png' size='309169'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:9:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                        at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:13:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:9:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                        at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:13:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700713426117' status='failed' stop='1700713613015'>
+            <name>@TDA-1281 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke SMS @sit @uat</name>
+            <title>@TDA-1281 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke SMS @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c4349fac-2e34-438c-bdad-f32eb295d285-attachment.png' type='image/png' size='309916'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:9:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                        at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:22:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                        at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:9:9)
+                --- End of stack trace ---
+                
+                    Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                        at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginResendValidOTP.ts:22:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

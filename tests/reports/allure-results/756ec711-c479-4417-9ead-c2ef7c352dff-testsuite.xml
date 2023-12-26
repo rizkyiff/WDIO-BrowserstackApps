@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701224609168' stop='1701224728995'>
+    <name>Beli Mobil Baru menggunakan pembayaran Cicilan </name>
+    <title>Beli Mobil Baru menggunakan pembayaran Cicilan </title>
+    <test-cases>
+        <test-case start='1701224609168' status='failed' stop='1701224728992'>
+            <name>TDA-854 - Sebagai Customer, saya dapat melakukan pembelian new car dengan menggunakan fitur instant checkout dengan metode cicilan dan opsi pembayaran virtual account - @sit @uat @lcsmoehr0020</name>
+            <title>TDA-854 - Sebagai Customer, saya dapat melakukan pembelian new car dengan menggunakan fitur instant checkout dengan metode cicilan dan opsi pembayaran virtual account - @sit @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b3861280-5cff-4bc8-bc5c-591676349f78-attachment.png' type='image/png' size='560587'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

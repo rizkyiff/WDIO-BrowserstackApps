@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701402226988' stop='1701402437344'>
+    <name>TDA-832 - Enhancement Booking Service WS - @lcsmoehr0020</name>
+    <title>TDA-832 - Enhancement Booking Service WS - @lcsmoehr0020</title>
+    <test-cases>
+        <test-case start='1701402226988' status='failed' stop='1701402346780'>
+            <name>as user i can see screen Workshop Service @uat @sit</name>
+            <title>as user i can see screen Workshop Service @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ad241aec-c24c-4d1c-9b7d-20d3006bcf18-attachment.png' type='image/png' size='204476'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Silahkan tambahkan kendaraan anda.")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Silahkan tambahkan kendaraan anda.")") still not displayed after 90000ms
+                    at async kategoriWorkshop.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.workshop.screen.ts:100:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\StickyMenu\StickyServis\LayananBengkel\app.stickyE2eWorkshopService.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701402346782' status='failed' stop='1701402437341'>
+            <name>TDA-571 - Sebagai customer, saya dapat melakukan edit data kendaraan dan menampilkan popup "Kendaraan Berhasil Diperbaharui" ketika melakukan booking service Layanan Bengkel - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-571 - Sebagai customer, saya dapat melakukan edit data kendaraan dan menampilkan popup "Kendaraan Berhasil Diperbaharui" ketika melakukan booking service Layanan Bengkel - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8614dda0-e383-4728-a202-171203c65300-attachment.png' type='image/png' size='204316'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Edit")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Edit")" because element wasn't found
+                    at async SimplifyAddVehicle.doEditMobil (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:131:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\StickyMenu\StickyServis\LayananBengkel\app.stickyE2eWorkshopService.ts:37:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700540990104' stop='1700541025671'>
+    <name>TDA-235 - Homepage Rejuvenation Fitur Search</name>
+    <title>TDA-235 - Homepage Rejuvenation Fitur Search</title>
+    <test-cases>
+        <test-case start='1700540990105' status='pending' stop='1700540990105'>
+            <name>TDA-1054 - Sebagai Customer, saya dapat menggunakan fitur search global untuk melakukan pencarian New Car @sit</name>
+            <title>TDA-1054 - Sebagai Customer, saya dapat menggunakan fitur search global untuk melakukan pencarian New Car @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700540990106' status='passed' stop='1700541025670'>
+            <name>TDA-1054 - Sebagai Customer, saya dapat menggunakan fitur search global untuk melakukan pencarian New Car @uat</name>
+            <title>TDA-1054 - Sebagai Customer, saya dapat menggunakan fitur search global untuk melakukan pencarian New Car @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='38a17086-a831-4fca-9c8f-61ba02317824-attachment.png' type='image/png' size='405806'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

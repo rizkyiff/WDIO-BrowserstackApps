@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701760285470' stop='1701760420158'>
+    <name>Login OTP</name>
+    <title>Login OTP</title>
+    <test-cases>
+        <test-case start='1701760285472' status='passed' stop='1701760348551'>
+            <name>@TDA-1280 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke Whatsapp @sit @uat</name>
+            <title>@TDA-1280 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke Whatsapp @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='177f8c7b-2c04-4cad-a1ed-d0ecf77147a7-attachment.png' type='image/png' size='75006'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701760348552' status='passed' stop='1701760420157'>
+            <name>@TDA-1281 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke SMS @sit @uat</name>
+            <title>@TDA-1281 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP Baru yang Dikirim ke SMS @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4ecc2f90-53f9-4d1d-b41e-1b4430058f1f-attachment.png' type='image/png' size='72157'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

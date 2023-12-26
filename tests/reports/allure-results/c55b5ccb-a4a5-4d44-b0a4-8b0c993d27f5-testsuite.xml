@@ -1,0 +1,41 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670437766849' stop='1670437827223'>
+    <name>login</name>
+    <title>login</title>
+    <test-cases>
+        <test-case start='1670437766850' status='passed' stop='1670437781624'>
+            <name>Handling Permission</name>
+            <title>Handling Permission</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670437781625' status='failed' stop='1670437827222'>
+            <name>Hendling Produk </name>
+            <title>Hendling Produk </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Skip")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Skip")" because element wasn't found
+                    at async HandlingProduk.tapHandlingSkip (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\handling.produk.ts:16:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.handlingProduk.ts:15:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

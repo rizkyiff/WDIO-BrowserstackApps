@@ -1,0 +1,107 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700642852805' stop='1700643105141'>
+    <name>Filter Mobil Baru</name>
+    <title>Filter Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700642852806' status='passed' stop='1700642872563'>
+            <name>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</name>
+            <title>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2b743e5a-e95c-4d95-b2cd-b114ae4ca42b-attachment.png' type='image/png' size='374726'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700642872565' status='passed' stop='1700642920591'>
+            <name>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</name>
+            <title>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1cae9a92-2674-4175-9924-db4b7936341f-attachment.png' type='image/png' size='374995'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700642920592' status='failed' stop='1700643000485'>
+            <name>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</name>
+            <title>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='12eb9861-160d-4a96-a531-6be1ff8b0c7b-attachment.png' type='image/png' size='115742'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700643000487' status='passed' stop='1700643009972'>
+            <name>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</name>
+            <title>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2403ec5e-e090-413d-acf5-6f9847fb46c8-attachment.png' type='image/png' size='101616'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643009973' status='failed' stop='1700643105140'>
+            <name>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat @sit</name>
+            <title>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d78c313c-0918-4fd1-8a6d-1f452aef17dd-attachment.png' type='image/png' size='675702'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "//*[contains(@text,"All New Avanza")]" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "//*[contains(@text,"All New Avanza")]" because element wasn't found
+                    at async urutkanMobilBaru.doSearch (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.urutkan.ts:92:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.filterMobilBaru.ts:40:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

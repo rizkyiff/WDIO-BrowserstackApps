@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701653977874' stop='1701654131131'>
+    <name>Test Drive - Salesman</name>
+    <title>Test Drive - Salesman</title>
+    <test-cases>
+        <test-case start='1701653977875' status='failed' stop='1701654131129'>
+            <name>TDA-305 - Sebagai customer, saya dapat booking test drive pada cabang lainnya dengan referral salesman @uat</name>
+            <title>TDA-305 - Sebagai customer, saya dapat booking test drive pada cabang lainnya dengan referral salesman @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='bc853e10-c8bd-49c3-85be-f8490a552386-attachment.png' type='image/png' size='241235'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Tidak menemukan cabang, Pilih lokasi lainnya")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Tidak menemukan cabang, Pilih lokasi lainnya")" because element wasn't found
+                    at async kategoriKuponService.doRumahAndaUat (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.testdrive.screen.ts:175:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAndaSalesman.ts:18:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

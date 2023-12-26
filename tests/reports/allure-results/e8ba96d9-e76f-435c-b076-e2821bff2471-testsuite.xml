@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700730495814' stop='1700730760667'>
+    <name>Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</name>
+    <title>Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1700730495815' status='failed' stop='1700730664848'>
+            <name>as user i can see screen login @sit @uat</name>
+            <title>as user i can see screen login @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2aede4e4-d087-4d24-a573-f99bfe568e7d-attachment.png' type='image/png' size='655401'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found
+                    at async PermissionScreen.tapBtnIzinkan2 (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\permission.screen.ts:22:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyEditKendaraanSaya.ts:18:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700730664850' status='passed' stop='1700730668232'>
+            <name>as user already login , can see screen profile @sit @uat</name>
+            <title>as user already login , can see screen profile @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f8ef1fb9-116e-4913-a1eb-fe9594b16d91-attachment.png' type='image/png' size='221883'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700730668232' status='failed' stop='1700730760664'>
+            <name>@TDA-1053 - Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya @sit @uat</name>
+            <title>@TDA-1053 - Sebagai Pengguna, saya bisa edit mobil di menu Kendaraan Saya @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='de7dc330-e8c6-4d19-9371-963697a3fc49-attachment.png' type='image/png' size='192433'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Tahun produksi")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Tahun produksi")" because element wasn't found
+                    at async SimplifyAddVehicle.doEditMobilKendaraanSaya (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:143:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyEditKendaraanSaya.ts:32:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

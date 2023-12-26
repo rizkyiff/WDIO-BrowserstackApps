@@ -1,0 +1,105 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702212102784' stop='1702212289281'>
+    <name>Kategori Home Service</name>
+    <title>Kategori Home Service</title>
+    <test-cases>
+        <test-case start='1702212102785' status='failed' stop='1702212289120'>
+            <name>TDA-573 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Home Service apabila saya belum login - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-573 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Home Service apabila saya belum login - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: waitUntil condition failed with the following reason: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details</message>
+                <stack-trace>Error: waitUntil condition failed with the following reason: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                    at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:9)
+                    at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702212289122' status='failed' stop='1702212289179'>
+            <name>TDA-575 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-575 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async BaseScreen.loginWithEmail (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:83:16)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702212289179' status='failed' stop='1702212289222'>
+            <name>TDA-1353 - Sebagai user saya dapat memilih layanan service home service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1353 - Sebagai user saya dapat memilih layanan service home service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async kategoriHomeScreen.verifyScreenIsidataDirianda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.homeService.screen.ts:165:16)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:35:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702212289237' status='failed' stop='1702212289280'>
+            <name>TDA-1354 - Sebagai user saya dapat mengisi alamat dan dapat melihat lokasi alamat di peta - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1354 - Sebagai user saya dapat mengisi alamat dan dapat melihat lokasi alamat di peta - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details</message>
+                <stack-trace>unknown error: An unknown server-side error occurred while processing the command. Original error: 'POST /element' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async kategoriHomeScreen.lokasiServisAnda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.homeService.screen.ts:180:16)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:39:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702212289280' status='pending' stop='1702212289281'>
+            <name>TDA-1355 - Sebagai user saya dapat memilih waktu atau mekanik home service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1355 - Sebagai user saya dapat memilih waktu atau mekanik home service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

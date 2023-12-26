@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700543832938' stop='1700543863289'>
+    <name>Hightlight Video</name>
+    <title>Hightlight Video</title>
+    <test-cases>
+        <test-case start='1700543832939' status='passed' stop='1700543851269'>
+            <name>a user should be able to see home screen @sit @uat</name>
+            <title>a user should be able to see home screen @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='09e966bf-7071-4285-b71c-124680927f54-attachment.png' type='image/png' size='682291'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700543851271' status='passed' stop='1700543863288'>
+            <name>TDA-172 - Sebagai customer, saya bisa melihat video selanjutnya yang ada di highligt video di homepage @sit @uat</name>
+            <title>TDA-172 - Sebagai customer, saya bisa melihat video selanjutnya yang ada di highligt video di homepage @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='abbda396-0c6f-420f-be96-7ae9a286159d-attachment.png' type='image/png' size='985955'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

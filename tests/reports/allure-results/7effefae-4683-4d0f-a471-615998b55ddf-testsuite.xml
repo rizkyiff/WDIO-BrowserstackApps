@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700614636560' stop='1700614663037'>
+    <name>[UAT] [6.15.0.4] Kategori Body Paint</name>
+    <title>[UAT] [6.15.0.4] Kategori Body Paint</title>
+    <test-cases>
+        <test-case start='1700614636560' status='passed' stop='1700614663036'>
+            <name>as user i can see screen Body Paint - @lcsmoehr0020 @uat @sit</name>
+            <title>as user i can see screen Body Paint - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='56a9c556-33e7-48d1-a0e6-d58d065a8b71-attachment.png' type='image/png' size='209461'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

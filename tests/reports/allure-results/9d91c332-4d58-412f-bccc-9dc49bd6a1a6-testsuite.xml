@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702537060784' stop='1702537189623'>
+    <name>Add, Update and Remove Kendaraan Saya</name>
+    <title>Add, Update and Remove Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1702537060785' status='failed' stop='1702537189620'>
+            <name>@TDA-731 - Sebagai Customer, Saya dapat merubah detail kendaraan saya di MyProfile @uat @sit</name>
+            <title>@TDA-731 - Sebagai Customer, Saya dapat merubah detail kendaraan saya di MyProfile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1323b5cf-b1ea-44c5-b190-6c69de4a24b7-attachment.png' type='image/png' size='151618'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("AVANZA")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("AVANZA")") still not displayed after 90000ms
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async kendaraansayaScreen.verifyScreenPageEdit (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.kendaraansaya.ts:240:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.editKendaraanSaya.ts:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702958868681' stop='1702958965417'>
+    <name>Berita &amp; Tips</name>
+    <title>Berita &amp; Tips</title>
+    <test-cases>
+        <test-case start='1702958868683' status='failed' stop='1702958965415'>
+            <name>@TDA-1345 - As a user i can see Berita &amp; Tips in homepage @uat @sit</name>
+            <title>@TDA-1345 - As a user i can see Berita &amp; Tips in homepage @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='RF8M20XKVSJ-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cb9d456c-5600-4700-800d-c9f0e8735261-attachment.png' type='image/png' size='27118'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                    at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.beritaAndTips.ts:6:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,65 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700540000512' stop='1700540036589'>
+    <name>TDA-235 - Homepage Rejuvenation Fitur Search</name>
+    <title>TDA-235 - Homepage Rejuvenation Fitur Search</title>
+    <test-cases>
+        <test-case start='1700540000513' status='passed' stop='1700540036571'>
+            <name>TDA-413 - Sebagai guest, saya dapat melakukan pencarian produk paket servis - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-413 - Sebagai guest, saya dapat melakukan pencarian produk paket servis - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='07ec04e7-32be-45cb-84e9-35a6f102a106-attachment.png' type='image/png' size='472166'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700540036574' status='pending' stop='1700540036575'>
+            <name>TDA-523 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk melakukan pencarian dan akan menampilkan suggestion berdasarkan product dan fitur yang ada pada auto2000 dengan jumlah keyword lebih besar sama dengan 3 karakter - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-523 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk melakukan pencarian dan akan menampilkan suggestion berdasarkan product dan fitur yang ada pada auto2000 dengan jumlah keyword lebih besar sama dengan 3 karakter - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700540036575' status='pending' stop='1700540036576'>
+            <name>TDA-524 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan fitur yang ada pada auto2000 dan akan mengarah ke PLP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-524 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan fitur yang ada pada auto2000 dan akan mengarah ke PLP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700540036588' status='pending' stop='1700540036588'>
+            <name>TDA-525 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan nama product yang ada pada auto2000 dan akan mengarah ke PDP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-525 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan nama product yang ada pada auto2000 dan akan mengarah ke PDP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

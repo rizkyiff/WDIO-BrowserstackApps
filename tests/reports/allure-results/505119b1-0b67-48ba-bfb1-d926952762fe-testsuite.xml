@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700644866158' stop='1700645112961'>
+    <name>@TDA-687 - Perbaikan nominal harga after discount pada PDP PLP New Car - @lcsmoehr0020</name>
+    <title>@TDA-687 - Perbaikan nominal harga after discount pada PDP PLP New Car - @lcsmoehr0020</title>
+    <test-cases>
+        <test-case start='1700644866158' status='pending' stop='1700644866159'>
+            <name>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @sit</name>
+            <title>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700644866160' status='failed' stop='1700644988623'>
+            <name>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @uat</name>
+            <title>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c334941f-9d6c-49a1-8290-eb1632e8708b-attachment.png' type='image/png' size='1113056'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Rp. 60.000.000")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Rp. 60.000.000")]") still not displayed after 90000ms
+                    at async pdpMobilBaru.verifDiscountCar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:154:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.hargaSetelahDiscount.ts:22:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700644988625' status='pending' stop='1700644988626'>
+            <name>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @sit</name>
+            <title>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700644988630' status='failed' stop='1700645112959'>
+            <name>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @uat</name>
+            <title>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='98192947-6ec9-46be-bf5d-f01076680409-attachment.png' type='image/png' size='1113308'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Rp. 60.000.000")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Rp. 60.000.000")]") still not displayed after 90000ms
+                    at async pdpMobilBaru.verifDiscountCar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:154:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.hargaSetelahDiscount.ts:29:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702872393076' stop='1702872593677'>
+    <name>Berita &amp; Tips</name>
+    <title>Berita &amp; Tips</title>
+    <test-cases>
+        <test-case start='1702872393077' status='failed' stop='1702872593664'>
+            <name>@TDA-1345 - As a user i can see Berita &amp; Tips in homepage @uat @sit</name>
+            <title>@TDA-1345 - As a user i can see Berita &amp; Tips in homepage @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='emulator-5554-12'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3fc75efc-d147-4890-a8d8-9c7b4d8f14f5-attachment.png' type='image/png' size='831579'/>
+            </attachments>
+            <failure>
+                <message>CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("7 barang yang harus ada di mobil Anda")") still not displayed after 90000ms
+                --- End of stack trace ---
+                
+                    Error: element ("android=text("Berita")") still not displayed after 90000ms
+                        at async HomeScreen.checkBeritaAndTips (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:155:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.beritaAndTips.ts:8:9)
+                --- End of stack trace ---
+                </message>
+                <stack-trace>Error: CompoundError: One or more errors occurred. ---
+                
+                    Error: element ("android=text("7 barang yang harus ada di mobil Anda")") still not displayed after 90000ms
+                --- End of stack trace ---
+                
+                    Error: element ("android=text("Berita")") still not displayed after 90000ms
+                        at async HomeScreen.checkBeritaAndTips (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:155:9)
+                        at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.beritaAndTips.ts:8:9)
+                --- End of stack trace ---
+                
+                    at getErrorFromFailedTest (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\utils.js:82:60)
+                    at AllureReporter.onTestFail (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\allure-reporter\build\index.js:253:73)
+                    at AllureReporter.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\reporter\build\index.js:121:18)
+                    at AllureReporter.emit (node:events:513:28)
+                    at AllureReporter.emit (node:domain:489:12)
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:56
+                    at Array.forEach (&lt;anonymous>)
+                    at BaseReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\runner\build\reporter.js:36:25)
+                    at JasmineReporter.emit (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:152:24)
+                    at JasmineReporter.specDone (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\jasmine-framework\build\reporter.js:85:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

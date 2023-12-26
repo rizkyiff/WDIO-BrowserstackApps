@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700728411474' stop='1700728653460'>
+    <name>TDA-567 - Body Paint</name>
+    <title>TDA-567 - Body Paint</title>
+    <test-cases>
+        <test-case start='1700728411475' status='failed' stop='1700728541547'>
+            <name>TDA-579 - Sebagai Customer, saya akan melakukan input kendaraan terlebih dahulu dengan memilih kendaraan sebelum melanjutkan ke section form berikutnya ketika melakukan booking service Bodi Paint dengan journey booking terbaru - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-579 - Sebagai Customer, saya akan melakukan input kendaraan terlebih dahulu dengan memilih kendaraan sebelum melanjutkan ke section form berikutnya ketika melakukan booking service Bodi Paint dengan journey booking terbaru - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42d5605b-0a74-40bd-b241-c3c54f4613d5-attachment.png' type='image/png' size='200595'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found
+                    at async PermissionScreen.tapBtnIzinkan2 (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\permission.screen.ts:22:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\BodyPaint\app.bookBodyPaint.ts:22:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700728541550' status='passed' stop='1700728653454'>
+            <name>TDA-1083 - Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) saat Booking Servis BP - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1083 - Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) saat Booking Servis BP - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dde04b17-02f2-4292-9f65-06be2f99baa4-attachment.png' type='image/png' size='180869'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700728653457' status='pending' stop='1700728653458'>
+            <name>TDA-579 - Sebagai Customer, saya akan melakukan input kendaraan terlebih dahulu dengan memilih kendaraan sebelum melanjutkan ke section form berikutnya ketika melakukan booking service Bodi Paint dengan journey booking terbaru - @tsid @sit @lcsmoehr0020</name>
+            <title>TDA-579 - Sebagai Customer, saya akan melakukan input kendaraan terlebih dahulu dengan memilih kendaraan sebelum melanjutkan ke section form berikutnya ketika melakukan booking service Bodi Paint dengan journey booking terbaru - @tsid @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

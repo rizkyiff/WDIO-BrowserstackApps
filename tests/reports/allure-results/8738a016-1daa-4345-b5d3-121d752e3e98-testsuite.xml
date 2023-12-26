@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700786277381' stop='1700786566065'>
+    <name>Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) di menu Kendaraan Saya</name>
+    <title>Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) di menu Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1700786277382' status='failed' stop='1700786385117'>
+            <name>as user i can see screen login @uat @sit</name>
+            <title>as user i can see screen login @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f96dde33-bbeb-4743-aed6-72e0f1a41750-attachment.png' type='image/png' size='95877'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:115:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyAddKendaraanSaya.ts:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700786385119' status='failed' stop='1700786475525'>
+            <name>as user already login , can see screen profile @uat @sit</name>
+            <title>as user already login , can see screen profile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='885ead56-d54d-4fc4-9f6a-3005ea46022b-attachment.png' type='image/png' size='95713'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                    at async profileloggedScreen.tapBtnProfile (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:55:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyAddKendaraanSaya.ts:21:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700786475528' status='failed' stop='1700786566064'>
+            <name>@TDA-1049 - Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) di menu Kendaraan Saya @uat @sit</name>
+            <title>@TDA-1049 - Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) di menu Kendaraan Saya @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='50d38802-008e-4a6f-ac6a-f1f90c5ca1e4-attachment.png' type='image/png' size='96102'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Kendaraan Saya")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Kendaraan Saya")" because element wasn't found
+                    at async profileloggedScreen.tapTxtKendaraanSaya (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:31:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.simplifyAddKendaraanSaya.ts:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

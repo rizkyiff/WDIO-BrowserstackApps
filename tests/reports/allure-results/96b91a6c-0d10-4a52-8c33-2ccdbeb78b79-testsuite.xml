@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700721641919' stop='1700721691564'>
+    <name>Sticky Menu - Journey Suku Cadang</name>
+    <title>Sticky Menu - Journey Suku Cadang</title>
+    <test-cases>
+        <test-case start='1700721641920' status='passed' stop='1700721691562'>
+            <name>@TDA-1344 - As a user i can access order suku cadang page from sticky menu shop @uat @sit</name>
+            <title>@TDA-1344 - As a user i can access order suku cadang page from sticky menu shop @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='665d5ec9-dc73-471f-9584-5ff38cc1cbfc-attachment.png' type='image/png' size='161148'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

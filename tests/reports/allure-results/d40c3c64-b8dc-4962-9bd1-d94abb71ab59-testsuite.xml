@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700531835993' stop='1700531835996'>
+    <name>Negative Case - Service Slot Booking Assistant</name>
+    <title>Negative Case - Service Slot Booking Assistant</title>
+    <test-cases>
+        <test-case start='1700531835994' status='pending' stop='1700531835995'>
+            <name>@TOEA-225, As user, I cannot reschedule if there is no available service time on the targeted reschedule date through Workshop Service by Branch @uat @sit</name>
+            <title>@TOEA-225, As user, I cannot reschedule if there is no available service time on the targeted reschedule date through Workshop Service by Branch @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

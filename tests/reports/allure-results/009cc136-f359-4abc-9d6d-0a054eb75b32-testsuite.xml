@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701417826814' stop='1701417963574'>
+    <name>TOEA-15 - Service Slot Booking Assistant</name>
+    <title>TOEA-15 - Service Slot Booking Assistant</title>
+    <test-cases>
+        <test-case start='1701417826815' status='failed' stop='1701417963572'>
+            <name>TDA-432 - Sebagai customer saya dapat melakukan booking service pada halaman detail cabang @uat @sit</name>
+            <title>TDA-432 - Sebagai customer saya dapat melakukan booking service pada halaman detail cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6b34adb2-5e74-4902-9a97-cca420fae325-attachment.png' type='image/png' size='1009333'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Auto2000 Yos&amp;Sudarso B&amp;W-.")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Auto2000 Yos&amp;Sudarso B&amp;W-.")]") still not displayed after 90000ms
+                    at async BranchPage.actionToBranch (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\branch.screen.ts:123:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.bookWorkshopService.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

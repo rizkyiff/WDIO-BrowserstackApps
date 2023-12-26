@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700548869960' stop='1700548992312'>
+    <name>TDA-560 - Pemisahan PLP Accs Kupon Servis</name>
+    <title>TDA-560 - Pemisahan PLP Accs Kupon Servis</title>
+    <test-cases>
+        <test-case start='1700548869961' status='failed' stop='1700548992310'>
+            <name>TDA-565 - Sebagai Customer, saya dapat menggunakan Filter pada PLP Aksesoris dan menampilkan hasil filter @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-565 - Sebagai Customer, saya dapat menggunakan Filter pada PLP Aksesoris dan menampilkan hasil filter @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0d706818-0037-4dbe-b11a-18e096bf37a8-attachment.png' type='image/png' size='157126'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"All New Avanza")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"All New Avanza")]") still not displayed after 90000ms
+                    at async kategoriAksesoris.verifyScreenFilter (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.aksesoris.screen.ts:233:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\Aksesoris\app.filterAksesoris.ts:17:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

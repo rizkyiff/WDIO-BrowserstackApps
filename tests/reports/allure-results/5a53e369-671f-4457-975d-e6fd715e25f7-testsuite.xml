@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700636024555' stop='1700636223672'>
+    <name>Filter Kupon Service</name>
+    <title>Filter Kupon Service</title>
+    <test-cases>
+        <test-case start='1700636024556' status='failed' stop='1700636223667'>
+            <name>TDA-563 - Sebagai Customer, saya dapat menggunakan Filter pada PLP Kupon servis dan menampilkan hasil filter @uat</name>
+            <title>TDA-563 - Sebagai Customer, saya dapat menggunakan Filter pada PLP Kupon servis dan menampilkan hasil filter @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='102e65f0-a372-4c45-8d2e-ddd421393b91-attachment.png' type='image/png' size='137677'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Service Berkala")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Service Berkala")") still not displayed after 90000ms
+                    at async kategoriKuponService.verifyFilterUat (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.kupon.service.ts:190:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\KuponService\app.filterKuponService.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700636223670' status='pending' stop='1700636223671'>
+            <name>TDA-563 - Sebagai Customer, saya dapat menggunakan Filter pada PLP Kupon servis dan menampilkan hasil filter @sit</name>
+            <title>TDA-563 - Sebagai Customer, saya dapat menggunakan Filter pada PLP Kupon servis dan menampilkan hasil filter @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

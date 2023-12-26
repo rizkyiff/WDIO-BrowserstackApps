@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700696456479' stop='1700696606302'>
+    <name>Filter Mobil Baru</name>
+    <title>Filter Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700696456483' status='passed' stop='1700696606301'>
+            <name>TDA-276, Sebagai customer, saya dapat mengurutkan unit new car berdasarkan abjad maupun harga @uat @sit</name>
+            <title>TDA-276, Sebagai customer, saya dapat mengurutkan unit new car berdasarkan abjad maupun harga @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fdf09982-48f5-45bb-8df1-568a6d336e95-attachment.png' type='image/png' size='572168'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

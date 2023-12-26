@@ -1,0 +1,139 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700787572338' stop='1700788497266'>
+    <name>Order Paket Service</name>
+    <title>Order Paket Service</title>
+    <test-cases>
+        <test-case start='1700787572339' status='failed' stop='1700787735290'>
+            <name>@TDA-989 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan Dana @uat @sit</name>
+            <title>@TDA-989 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan Dana @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='61e2aaa9-8dbe-46c0-b862-89573e6d2223-attachment.png' type='image/png' size='177863'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreenAL (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\PaketServis\app.orderPaketServis.ts:27:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700787735292' status='failed' stop='1700787880124'>
+            <name>@TDA-991 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan LinkAja @uat @sit</name>
+            <title>@TDA-991 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan LinkAja @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1097100a-4ff2-4588-9a74-0413063746ae-attachment.png' type='image/png' size='177464'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreenAL (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\PaketServis\app.orderPaketServis.ts:53:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700787880126' status='failed' stop='1700788017419'>
+            <name>@TDA-990 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan Shopee @uat @sit</name>
+            <title>@TDA-990 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan Shopee @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3fd755d6-14e9-4461-9f1b-f2795b90720b-attachment.png' type='image/png' size='177774'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreenAL (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\PaketServis\app.orderPaketServis.ts:79:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700788017426' status='failed' stop='1700788176940'>
+            <name>@TDA-992 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan OVO @uat @sit</name>
+            <title>@TDA-992 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Instan OVO @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b5e7d2f9-efdc-4864-b6c6-a5841881abcd-attachment.png' type='image/png' size='177889'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreenAL (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\PaketServis\app.orderPaketServis.ts:105:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700788176943' status='failed' stop='1700788337809'>
+            <name>@TDA-993 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Kartu Debet Atau Kartu Kredit @uat @sit</name>
+            <title>@TDA-993 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran Kartu Debet Atau Kartu Kredit @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a734328c-598d-4c05-b761-594c21d6d208-attachment.png' type='image/png' size='177377'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreenAL (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\PaketServis\app.orderPaketServis.ts:131:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700788337811' status='failed' stop='1700788497249'>
+            <name>@TDA-994 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran AstraPay @uat @sit</name>
+            <title>@TDA-994 - Sebagai Customer, saya dapat melakukan order Paket Servis dengan menggunakan Metode Pembayaran AstraPay @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3fd99925-daff-49be-91c6-1c57e1f95833-attachment.png' type='image/png' size='177515'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("STNK Berlaku Sampai")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreenAL (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:105:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\PaketServis\app.orderPaketServis.ts:157:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

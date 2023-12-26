@@ -1,0 +1,51 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701418477439' stop='1701418704992'>
+    <name>Input alamat lain di halaman checkout kupon servis</name>
+    <title>Input alamat lain di halaman checkout kupon servis</title>
+    <test-cases>
+        <test-case start='1701418477439' status='failed' stop='1701418590300'>
+            <name>TDA-355, Sebagai Customer, saya dapat mengedit alamat yang ada ketika melakukan pembelian aksesoris @uat @sit</name>
+            <title>TDA-355, Sebagai Customer, saya dapat mengedit alamat yang ada ketika melakukan pembelian aksesoris @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='232b0d2c-d415-453b-804e-1fb3d0abd336-attachment.png' type='image/png' size='684046'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masuk dengan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masuk dengan Email")") still not displayed after 90000ms
+                    at async BaseScreen.loginWithEmail (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:83:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\KuponService\app.orderAndUpdateAddress.ts:14:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701418590303' status='failed' stop='1701418704990'>
+            <name>TDA-357, Sebagai Customer, saya dapat memilih alamat pengiriman yang bukan merupakan alamat utama @uat @sit</name>
+            <title>TDA-357, Sebagai Customer, saya dapat memilih alamat pengiriman yang bukan merupakan alamat utama @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='105b5cbb-7dbf-4a41-933a-32dc8019f720-attachment.png' type='image/png' size='657886'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masuk dengan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masuk dengan Email")") still not displayed after 90000ms
+                    at async BaseScreen.loginWithEmail (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:83:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\KuponService\app.orderAndUpdateAddress.ts:39:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700643335278' stop='1700643437380'>
+    <name>Filter Mobil Baru</name>
+    <title>Filter Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700643335279' status='passed' stop='1700643358887'>
+            <name>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</name>
+            <title>@TDA-271 - Sebagai customer, saya dapat melihat list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='89f21cd2-336f-4ac9-afa6-6f852bb12506-attachment.png' type='image/png' size='374070'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643358888' status='passed' stop='1700643364957'>
+            <name>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</name>
+            <title>@TDA-273 - Sebagai customer, saya dapat melihat semua mobil, mobil terbaru, dan best seller pada halaman list new car @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='85ad41a8-866b-4770-b49c-84e9d19171db-attachment.png' type='image/png' size='260168'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700643364958' status='failed' stop='1700643437360'>
+            <name>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</name>
+            <title>TDA-274, Sebagai customer, saya dapat memfilter list new car yang saya inginkan @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2c483f70-9b27-44bb-bb25-8b7f206fab9c-attachment.png' type='image/png' size='114803'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700643437377' status='pending' stop='1700643437378'>
+            <name>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</name>
+            <title>@TDA-275 - Sebagai customer, saya dapat memfilter list new car yang saya inginkan secara langsung melalui tab kategori filter @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700643437379' status='pending' stop='1700643437380'>
+            <name>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat @sit</name>
+            <title>@TDA-272 - Sebagai customer, saya dapat menggunakan icon search untuk mencari mobil yang diinginkan pada list new car tersebut @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

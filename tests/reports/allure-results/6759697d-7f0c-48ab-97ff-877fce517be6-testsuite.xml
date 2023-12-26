@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701677504081' stop='1701677537623'>
+    <name>Login OTP</name>
+    <title>Login OTP</title>
+    <test-cases>
+        <test-case start='1701677504083' status='passed' stop='1701677537607'>
+            <name>@TDA-1287 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP SMS dengan Nomor yang Belum Terdaftar @sit @uat @fixing</name>
+            <title>@TDA-1287 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP SMS dengan Nomor yang Belum Terdaftar @sit @uat @fixing</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dd11b020-2940-4376-9eef-affe6bcfe491-attachment.png' type='image/png' size='108019'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701677537616' status='pending' stop='1701677537619'>
+            <name>@TDA-1286 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP Whatsapp dengan Nomor yang Belum Terdaftar @sit @uat</name>
+            <title>@TDA-1286 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan OTP Whatsapp dengan Nomor yang Belum Terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

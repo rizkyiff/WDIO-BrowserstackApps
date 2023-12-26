@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670466616046' stop='1670466696995'>
+    <name>login</name>
+    <title>login</title>
+    <test-cases>
+        <test-case start='1670466616050' status='passed' stop='1670466630882'>
+            <name>Handling Permission</name>
+            <title>Handling Permission</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670466630883' status='passed' stop='1670466646203'>
+            <name>Handling Tutorial </name>
+            <title>Handling Tutorial </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670466646204' status='failed' stop='1670466696986'>
+            <name>form login</name>
+            <title>form login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "android=text("Kata Sandi")" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "android=text("Kata Sandi")" because element wasn't found
+                    at async formLogin.inputKataSandi (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\login.ts:19:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.handlingProduk.ts:59:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

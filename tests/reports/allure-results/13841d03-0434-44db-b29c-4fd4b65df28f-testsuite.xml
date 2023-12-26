@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670944526969' stop='1670944586802'>
+    <name>Journey Shop</name>
+    <title>Journey Shop</title>
+    <test-cases>
+        <test-case start='1670944526969' status='failed' stop='1670944586800'>
+            <name>as user i can see screen Shop</name>
+            <title>as user i can see screen Shop</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("android=text("Shop")") still not displayed after 45000ms</message>
+                <stack-trace>Error: element ("android=text("Shop")") still not displayed after 45000ms
+                    at async StickyMenuScreen.tapMenuShop (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\stickyMenu.screen.ts:20:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.journeyShop.ts:14:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

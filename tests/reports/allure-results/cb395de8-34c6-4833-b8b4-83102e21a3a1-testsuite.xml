@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702534663638' stop='1702534857584'>
+    <name>Sebagai customer, Saya ingin melakukan Daftar Akun </name>
+    <title>Sebagai customer, Saya ingin melakukan Daftar Akun </title>
+    <test-cases>
+        <test-case start='1702534663639' status='failed' stop='1702534766720'>
+            <name>as user i can see screen login @uat</name>
+            <title>as user i can see screen login @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='24b310b9-1f90-4a19-86d7-4293d4f8386d-attachment.png' type='image/png' size='97729'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                    at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.daftar.ts:13:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702534766722' status='failed' stop='1702534857570'>
+            <name>@TDA-733 - Sebagai customer, Saya dapat melakukan registrasi @uat</name>
+            <title>@TDA-733 - Sebagai customer, Saya dapat melakukan registrasi @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f7e5e774-e98f-433e-8c20-9aa8e14e9be0-attachment.png' type='image/png' size='98572'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "~txt-nama" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "~txt-nama" because element wasn't found
+                    at async FormDaftar.inputNama (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\daftar.screen.ts:67:22)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.daftar.ts:19:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702534857573' status='pending' stop='1702534857573'>
+            <name>as user i can see screen login @sit</name>
+            <title>as user i can see screen login @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1702534857582' status='pending' stop='1702534857583'>
+            <name>Sebagai customer, Saya dapat melakukan registrasi dengan nomor hp @sit</name>
+            <title>Sebagai customer, Saya dapat melakukan registrasi dengan nomor hp @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,101 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700543152192' stop='1700543353406'>
+    <name>Promo Homepage</name>
+    <title>Promo Homepage</title>
+    <test-cases>
+        <test-case start='1700543152194' status='passed' stop='1700543182679'>
+            <name>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage @uat @sit</name>
+            <title>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b1e075b5-b884-42d4-bc04-055efd10aa2e-attachment.png' type='image/png' size='832100'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700543182679' status='passed' stop='1700543197619'>
+            <name>TDA-206 - Sebagai customer, saya dapat melihat promo menarik dengan menggeser kesamping @sit @uat</name>
+            <title>TDA-206 - Sebagai customer, saya dapat melihat promo menarik dengan menggeser kesamping @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fc0ce499-8fdf-4c4f-a497-be85ef5f3cef-attachment.png' type='image/png' size='1322160'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700543197620' status='passed' stop='1700543221243'>
+            <name>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage @uat</name>
+            <title>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3b1d29db-e892-4a25-bce1-b114bfc902e7-attachment.png' type='image/png' size='872564'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700543221250' status='pending' stop='1700543221251'>
+            <name>TDA-190 - Sebagai customer, saya dapat melihat detail salah satu promo. @sit</name>
+            <title>TDA-190 - Sebagai customer, saya dapat melihat detail salah satu promo. @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700543221251' status='passed' stop='1700543329374'>
+            <name>TDA-189 - Sebagai customer, saya dapat melihat semua listing page di menu promo. @uat @sit</name>
+            <title>TDA-189 - Sebagai customer, saya dapat melihat semua listing page di menu promo. @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='999eb4a6-804f-459e-a220-d54f14421ed5-attachment.png' type='image/png' size='400965'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700543329375' status='passed' stop='1700543353395'>
+            <name>TDA-224 - Sebagai customer, saya dapat melihat detail promo page. @sit @uat</name>
+            <title>TDA-224 - Sebagai customer, saya dapat melihat detail promo page. @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='20370324-94e2-4f83-aadf-a3f742556721-attachment.png' type='image/png' size='175016'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

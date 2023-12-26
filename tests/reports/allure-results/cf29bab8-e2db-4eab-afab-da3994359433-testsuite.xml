@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702751436055' stop='1702751589047'>
+    <name>Register from accessoris kategori</name>
+    <title>Register from accessoris kategori</title>
+    <test-cases>
+        <test-case start='1702751436058' status='failed' stop='1702751581988'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-102'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='88MX01NQR-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Register\PhoneNumber\Keranjang\app.registerOrderNewCar.ts:12:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1702751581993' status='failed' stop='1702751589045'>
+            <name>as guest i can register from order new car @sit</name>
+            <title>as guest i can register from order new car @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-102'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='88MX01NQR-9'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>WebDriver Error: Session not started or terminated</message>
+                <stack-trace>WebDriver Error: Session not started or terminated
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async kategoriScreen.tapBtnMobilBaru (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.screen.ts:27:16)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Register\PhoneNumber\Keranjang\app.registerOrderNewCar.ts:27:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

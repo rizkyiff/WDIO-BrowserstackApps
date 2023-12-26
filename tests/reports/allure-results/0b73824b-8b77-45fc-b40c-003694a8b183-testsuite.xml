@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701221117959' stop='1701221223181'>
+    <name>Journey Login</name>
+    <title>Journey Login</title>
+    <test-cases>
+        <test-case start='1701221117960' status='failed' stop='1701221223178'>
+            <name>TDA-891, as user i can see screen login @uat @sit</name>
+            <title>TDA-891, as user i can see screen login @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f6d6393c-6200-4c1a-8c1d-85acf9c4bfaf-attachment.png' type='image/png' size='100607'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms
+                    at async FormLogin.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:115:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.journeyLogin.ts:12:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

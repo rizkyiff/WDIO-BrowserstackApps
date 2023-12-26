@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701028870975' stop='1701028916692'>
+    <name>Sebagai customer, Saya dapat melihat page Test Drive ketika sudah login </name>
+    <title>Sebagai customer, Saya dapat melihat page Test Drive ketika sudah login </title>
+    <test-cases>
+        <test-case start='1701028870976' status='passed' stop='1701028909149'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701028909151' status='passed' stop='1701028916691'>
+            <name>TDA-913 - My Profile - Test Drive @uat @sit</name>
+            <title>TDA-913 - My Profile - Test Drive @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6de0ce99-9ef4-46df-b1dc-391d864cf12f-attachment.png' type='image/png' size='122103'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

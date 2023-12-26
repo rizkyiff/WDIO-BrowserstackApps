@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700614222689' stop='1700614310002'>
+    <name>TDA-859 - SQA-Bandingkan New Car dan Used Car</name>
+    <title>TDA-859 - SQA-Bandingkan New Car dan Used Car</title>
+    <test-cases>
+        <test-case start='1700614222692' status='pending' stop='1700614222693'>
+            <name>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @sit</name>
+            <title>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700614222694' status='passed' stop='1700614310001'>
+            <name>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @uat</name>
+            <title>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7abed0da-efed-48d0-a799-22c3cb7968c5-attachment.png' type='image/png' size='222475'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

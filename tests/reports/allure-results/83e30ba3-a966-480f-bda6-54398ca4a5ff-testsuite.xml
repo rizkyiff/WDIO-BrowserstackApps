@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700545033495' stop='1700545068227'>
+    <name>Sebagai customer, Saya dapat melihat page Mobil Baru melalui Rekomendasi Mobil</name>
+    <title>Sebagai customer, Saya dapat melihat page Mobil Baru melalui Rekomendasi Mobil</title>
+    <test-cases>
+        <test-case start='1700545033498' status='pending' stop='1700545033499'>
+            <name>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @sit</name>
+            <title>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700545033500' status='passed' stop='1700545061200'>
+            <name>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @uat</name>
+            <title>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7ce3f1f0-fe03-4cbd-89b3-1fee1bacaa69-attachment.png' type='image/png' size='442640'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700545061202' status='pending' stop='1700545061203'>
+            <name>TDA-205, sebagai customer, saya bisa melihat product rekomendasi mobil dengan menggeser kesamping @sit</name>
+            <title>TDA-205, sebagai customer, saya bisa melihat product rekomendasi mobil dengan menggeser kesamping @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700545061205' status='passed' stop='1700545068225'>
+            <name>TDA-205, sebagai customer, saya bisa melihat product rekomendasi mobil dengan menggeser kesamping @uat</name>
+            <title>TDA-205, sebagai customer, saya bisa melihat product rekomendasi mobil dengan menggeser kesamping @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='debcd0e2-69bb-4368-bb76-160dc252406c-attachment.png' type='image/png' size='447828'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

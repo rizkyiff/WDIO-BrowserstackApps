@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701235960842' stop='1701236009103'>
+    <name>[OUTDATE] perubahan QR code profile - @TDA-710</name>
+    <title>[OUTDATE] perubahan QR code profile - @TDA-710</title>
+    <test-cases>
+        <test-case start='1701235960845' status='passed' stop='1701236009101'>
+            <name>@TDA-712, sebagai user, saya dapat melihat qr code di profile saya jika qr config di hac nyala - @uat @sit</name>
+            <title>@TDA-712, sebagai user, saya dapat melihat qr code di profile saya jika qr config di hac nyala - @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd1cdce6-c895-42a7-b032-0b8b7b5e6a41-attachment.png' type='image/png' size='182679'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

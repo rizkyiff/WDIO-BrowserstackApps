@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701670448166' stop='1701670562932'>
+    <name>TDA-857 - Test Drive</name>
+    <title>TDA-857 - Test Drive</title>
+    <test-cases>
+        <test-case start='1701670448167' status='pending' stop='1701670448168'>
+            <name>sebagai user saya bisa melakukan submit menggunakan Rumah Anda</name>
+            <title>sebagai user saya bisa melakukan submit menggunakan Rumah Anda</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701670448169' status='pending' stop='1701670448169'>
+            <name>TDA-76 - Sebagai user, saya dapat membooking order Test Drive H+2 setelah hari pemesanan</name>
+            <title>TDA-76 - Sebagai user, saya dapat membooking order Test Drive H+2 setelah hari pemesanan</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701670448169' status='failed' stop='1701670562922'>
+            <name>TDA-81 - Sebagai User, saya dapat mengisi form Submit Test Drive tanpa di dahului login, kemudian Register akun @sit @uat</name>
+            <title>TDA-81 - Sebagai User, saya dapat mengisi form Submit Test Drive tanpa di dahului login, kemudian Register akun @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='39cb67ed-7a2c-48a2-896a-f8f675523c51-attachment.png' type='image/png' size='550470'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                    at async HomeScreen.tapBtnAccount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\home.screen.ts:64:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.E2eTestDriveRumahAnda.ts:35:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,159 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700726647102' stop='1700727162869'>
+    <name>TDA-954 - Order Used Car</name>
+    <title>TDA-954 - Order Used Car</title>
+    <test-cases>
+        <test-case start='1700726647103' status='passed' stop='1700726686881'>
+            <name>as user i can see Section Kategori Used Car @UAT</name>
+            <title>as user i can see Section Kategori Used Car @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4cd88961-8fd8-4e94-8f87-73b69767cf81-attachment.png' type='image/png' size='665698'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700726686883' status='failed' stop='1700726766628'>
+            <name>as user i can see screen PDP Used Car @UAT</name>
+            <title>as user i can see screen PDP Used Car @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3faf133f-6970-490f-8ea9-0eed7504ee86-attachment.png' type='image/png' size='168636'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700726766628' status='failed' stop='1700726928713'>
+            <name>as user i can see screen Login @UAT</name>
+            <title>as user i can see screen Login @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c44b7e34-b115-4ddc-8f90-2c8ae57e7573-attachment.png' type='image/png' size='224245'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found
+                    at async PermissionScreen.tapBtnIzinkan2 (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\permission.screen.ts:22:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.E2eUsedCarKreditBUG.ts:25:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700726928716' status='passed' stop='1700726940488'>
+            <name>as user i can see screen Book atau Beli @UAT</name>
+            <title>as user i can see screen Book atau Beli @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8a7db76b-7121-461b-ab14-4e7edd9ddf21-attachment.png' type='image/png' size='157694'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700726940489' status='passed' stop='1700726952978'>
+            <name>as user i can see screen Pembayaran @UAT</name>
+            <title>as user i can see screen Pembayaran @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2bdd2e1b-c322-4925-81a3-619bc8e9aa93-attachment.png' type='image/png' size='222219'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700726952979' status='failed' stop='1700727072285'>
+            <name>TDA-953 - Sebagai Customer, saya dapat melakukan pembelian used car menggunakan metode Booking dengan Tanda Jadi - @lcsmoehr0020 @UAT</name>
+            <title>TDA-953 - Sebagai Customer, saya dapat melakukan pembelian used car menggunakan metode Booking dengan Tanda Jadi - @lcsmoehr0020 @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='de31e7be-fad6-49d1-8e5e-9c0535da14c2-attachment.png' type='image/png' size='221289'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:75:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)
+                    at async Function.checkIfDisplayedWithSwipeDown (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:72:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700727072302' status='failed' stop='1700727162867'>
+            <name>TDA-952 - Sebagai Customer, saya dapat melakukan pembelian used car menggunakan metode Kedit - @lcsmoehr0020 @UAT</name>
+            <title>TDA-952 - Sebagai Customer, saya dapat melakukan pembelian used car menggunakan metode Kedit - @lcsmoehr0020 @UAT</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='dc3947df-e7c2-48f6-bf19-2384c6962118-attachment.png' type='image/png' size='221706'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Tunai dengan Virtual Account")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Tunai dengan Virtual Account")") still not displayed after 90000ms
+                    at async UsedCar.doDetailConfirmationKredit (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.usedcar.screen.ts:241:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\UsedCar\app.E2eUsedCarKreditBUG.ts:38:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

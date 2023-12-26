@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700538842906' stop='1700539079119'>
+    <name>TDA-235 - Homepage Rejuvenation Fitur Search</name>
+    <title>TDA-235 - Homepage Rejuvenation Fitur Search</title>
+    <test-cases>
+        <test-case start='1700538842907' status='failed' stop='1700538960488'>
+            <name>TDA-413 - Sebagai guest, saya dapat melakukan pencarian produk paket servis - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-413 - Sebagai guest, saya dapat melakukan pencarian produk paket servis - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6b058803-e086-4744-bd3a-509f10d73605-attachment.png' type='image/png' size='509322'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call elementClick on element with selector "~btn-search" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementClick on element with selector "~btn-search" because element wasn't found
+                    at async PermissionScreen.searchAndValidationSuggestion (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\search.screen.ts:71:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\SearchGlobal\app.searchGlobalPlp.ts:12:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700538960489' status='passed' stop='1700538991976'>
+            <name>TDA-523 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk melakukan pencarian dan akan menampilkan suggestion berdasarkan product dan fitur yang ada pada auto2000 dengan jumlah keyword lebih besar sama dengan 3 karakter - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-523 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk melakukan pencarian dan akan menampilkan suggestion berdasarkan product dan fitur yang ada pada auto2000 dengan jumlah keyword lebih besar sama dengan 3 karakter - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='35925da4-7e26-4671-b5e7-7676f4937f38-attachment.png' type='image/png' size='472913'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700538991976' status='passed' stop='1700539036353'>
+            <name>TDA-524 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan fitur yang ada pada auto2000 dan akan mengarah ke PLP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-524 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan fitur yang ada pada auto2000 dan akan mengarah ke PLP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6723c037-2791-4edd-ba1e-c5c1e6efa727-attachment.png' type='image/png' size='145317'/>
+                <attachment title='Screenshot' source='e8e2a9c8-2223-4613-98d5-5bf4e572e094-attachment.png' type='image/png' size='145317'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700539036363' status='passed' stop='1700539079118'>
+            <name>TDA-525 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan nama product yang ada pada auto2000 dan akan mengarah ke PDP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-525 - Sebagai Customer, saya dapat menggunakan fitur search di homepage untuk menemukan nama product yang ada pada auto2000 dan akan mengarah ke PDP berdasarkan keyword pencarian - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='beb40b47-248a-4486-a3fb-917ee8fbdf53-attachment.png' type='image/png' size='145317'/>
+                <attachment title='Screenshot' source='4723f30b-0a5f-4c35-bc06-920ce90adb01-attachment.png' type='image/png' size='145317'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

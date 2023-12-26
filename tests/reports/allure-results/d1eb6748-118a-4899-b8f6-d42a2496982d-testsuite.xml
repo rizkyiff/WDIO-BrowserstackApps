@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700550137841' stop='1700550193589'>
+    <name>Perbaikan nominal harga after discount pada PDP PLP Accs - @TDA-690</name>
+    <title>Perbaikan nominal harga after discount pada PDP PLP Accs - @TDA-690</title>
+    <test-cases>
+        <test-case start='1700550137842' status='passed' stop='1700550193583'>
+            <name>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @uat</name>
+            <title>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='02203631-490a-42b9-a62f-dc5c8f951d66-attachment.png' type='image/png' size='244682'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700550193586' status='pending' stop='1700550193587'>
+            <name>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @sit</name>
+            <title>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

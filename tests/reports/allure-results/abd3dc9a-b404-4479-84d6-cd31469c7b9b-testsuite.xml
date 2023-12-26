@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701043038952' stop='1701043065484'>
+    <name>Journey Tanya Tasia</name>
+    <title>Journey Tanya Tasia</title>
+    <test-cases>
+        <test-case start='1701043038953' status='passed' stop='1701043065483'>
+            <name>TDA-906 - As user i can see screen Tanya Tasia from sticky menu @sit @uat</name>
+            <title>TDA-906 - As user i can see screen Tanya Tasia from sticky menu @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5791f274-a06d-4482-aa1d-6b326878598f-attachment.png' type='image/png' size='369657'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

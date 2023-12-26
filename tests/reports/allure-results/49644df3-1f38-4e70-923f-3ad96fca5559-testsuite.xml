@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700797662668' stop='1700797777705'>
+    <name>TDA-964 - Order Kupon Servis</name>
+    <title>TDA-964 - Order Kupon Servis</title>
+    <test-cases>
+        <test-case start='1700797662669' status='passed' stop='1700797683004'>
+            <name>Sebagai Customer , Saya dapet melihat page Kupon Service @uat @sit</name>
+            <title>Sebagai Customer , Saya dapet melihat page Kupon Service @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cc7b5716-c08c-4202-a3d7-29637448349e-attachment.png' type='image/png' size='259279'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700797683006' status='failed' stop='1700797777703'>
+            <name>TDA-969 - Sebagai Customer, saya dapat melakukan order Kupon Service menggunakan metode pembayaran Virtual Account - @lcsmoehr0020 @uat @sit</name>
+            <title>TDA-969 - Sebagai Customer, saya dapat melakukan order Kupon Service menggunakan metode pembayaran Virtual Account - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8b321136-8f3e-41c8-b9fc-4fec80d62d94-attachment.png' type='image/png' size='224751'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Kupon Check")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Kupon Check")]") still not displayed after 90000ms
+                    at async kategoriKuponService.verifyDetailCheck (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.kupon.service.ts:236:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\KuponService\app.orderKuponServiceVirtualAccount.ts:17:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

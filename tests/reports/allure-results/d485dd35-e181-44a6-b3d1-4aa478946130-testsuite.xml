@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700726323084' stop='1700726350848'>
+    <name>Sebagai customer, Saya dapat melihat page Mobil Baru melalui Rekomendasi Mobil</name>
+    <title>Sebagai customer, Saya dapat melihat page Mobil Baru melalui Rekomendasi Mobil</title>
+    <test-cases>
+        <test-case start='1700726323085' status='passed' stop='1700726350846'>
+            <name>TDA-183 - Sebagai customer, saya bisa menemukan fitur rekomendasi mobil di homepage - @uat @sit</name>
+            <title>TDA-183 - Sebagai customer, saya bisa menemukan fitur rekomendasi mobil di homepage - @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='577b1912-f143-4eb3-b08a-2ce01d0e61b5-attachment.png' type='image/png' size='442094'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

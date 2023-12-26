@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702749952326' stop='1702749967426'>
+    <name>Sebagai customer, Saya ingin melihat banner pada homepage </name>
+    <title>Sebagai customer, Saya ingin melihat banner pada homepage </title>
+    <test-cases>
+        <test-case start='1702749952327' status='failed' stop='1702749967423'>
+            <name>TDA-214 - Sebagai customer, saya bisa klik salah satu banner untuk melihat detail banner @uat @sit</name>
+            <title>TDA-214 - Sebagai customer, saya bisa klik salah satu banner untuk melihat detail banner @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='chrome-9'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='057379e2-4ea4-495e-9c0c-a9c9ce640456-attachment.png' type='image/png' size='13135'/>
+            </attachments>
+            <failure>
+                <message>invalid argument: invalid argument: invalid locator
+                  (Session info: chrome=117.0.5938.61)</message>
+                <stack-trace>invalid argument: invalid argument: invalid locator
+                  (Session info: chrome=117.0.5938.61)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async WelcomeScreen.tapTxtSkip (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\welcome.screen.ts:20:16)
+                    at async BaseScreen.verifyHomepageUAT (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:48:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.banner.ts:9:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701415352310' stop='1701415599839'>
+    <name>Pilih Lokasi</name>
+    <title>Pilih Lokasi</title>
+    <test-cases>
+        <test-case start='1701415352311' status='passed' stop='1701415410426'>
+            <name>@TDA-428, Sebagai customer saya dapat menyimpan lokasi saya @sit @uat</name>
+            <title>@TDA-428, Sebagai customer saya dapat menyimpan lokasi saya @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4b8dc43d-45bb-44c8-8863-c2aff7a4b6bf-attachment.png' type='image/png' size='804525'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701415410427' status='passed' stop='1701415478121'>
+            <name>@TDA-459, Sebagai Customer, saya dapat memilih provinsi dan kota pada popup location untuk mempermudah customer dalam memilih cabang sekitar @sit @uat</name>
+            <title>@TDA-459, Sebagai Customer, saya dapat memilih provinsi dan kota pada popup location untuk mempermudah customer dalam memilih cabang sekitar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='90ee06ac-d981-4b8e-9075-e59c3707c690-attachment.png' type='image/png' size='704816'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701415478121' status='passed' stop='1701415541413'>
+            <name>@TDA-460, Sebagai Customer, saya akan mendapatkan disclaimer cabang Auto2000 belum tersedia apabila saya melakukan submit lokasi di luar coverage Auto2000 @sit @uat</name>
+            <title>@TDA-460, Sebagai Customer, saya akan mendapatkan disclaimer cabang Auto2000 belum tersedia apabila saya melakukan submit lokasi di luar coverage Auto2000 @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba1b57e9-bd5a-486d-b92a-b64ac1b46cb8-attachment.png' type='image/png' size='965458'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701415541425' status='passed' stop='1701415599838'>
+            <name>@TDA-433, Sebagai customer, saya dapat memilih kota dan provinsi sesuai lokasi saya, dan memastikan apakah dilokasi tersebut tersedia cabang Auto2000 @sit @uat</name>
+            <title>@TDA-433, Sebagai customer, saya dapat memilih kota dan provinsi sesuai lokasi saya, dan memastikan apakah dilokasi tersebut tersedia cabang Auto2000 @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d8e5aca0-9ebc-406f-b31a-b784dd6ff05f-attachment.png' type='image/png' size='812029'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

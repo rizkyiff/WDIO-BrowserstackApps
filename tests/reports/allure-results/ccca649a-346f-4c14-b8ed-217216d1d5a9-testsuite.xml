@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700708660412' stop='1700708683998'>
+    <name>Journey Kategori</name>
+    <title>Journey Kategori</title>
+    <test-cases>
+        <test-case start='1700708660413' status='passed' stop='1700708683997'>
+            <name>TDA-894, as user i can see Section Kategori @uat @sit</name>
+            <title>TDA-894, as user i can see Section Kategori @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1e2c7ba0-8b9d-47f3-9f99-3833e31181ee-attachment.png' type='image/png' size='622098'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

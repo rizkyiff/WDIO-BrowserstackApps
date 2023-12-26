@@ -1,0 +1,79 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700546076824' stop='1700546277107'>
+    <name>Sebagai customer, Saya ingin melakukan Daftar Akun </name>
+    <title>Sebagai customer, Saya ingin melakukan Daftar Akun </title>
+    <test-cases>
+        <test-case start='1700546076825' status='failed' stop='1700546186151'>
+            <name>as user i can see screen login @uat</name>
+            <title>as user i can see screen login @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7777382f-445c-4520-bbb2-8d7f5751624a-attachment.png' type='image/png' size='156290'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Nama Anda *")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Nama Anda *")") still not displayed after 90000ms
+                    at async FormDaftar.verifyScreen (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\daftar.screen.ts:101:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.daftar.ts:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700546186153' status='failed' stop='1700546277094'>
+            <name>@TDA-733 - Sebagai customer, Saya dapat melakukan registrasi @uat</name>
+            <title>@TDA-733 - Sebagai customer, Saya dapat melakukan registrasi @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4e9e6066-b68d-4a3a-8b76-34b208efe79c-attachment.png' type='image/png' size='155967'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "android=text("Nama Anda *")" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "android=text("Nama Anda *")" because element wasn't found
+                    at async FormDaftar.inputNama (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\daftar.screen.ts:63:64)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Profile\app.daftar.ts:20:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700546277094' status='pending' stop='1700546277095'>
+            <name>as user i can see screen login @sit</name>
+            <title>as user i can see screen login @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700546277106' status='pending' stop='1700546277106'>
+            <name>Sebagai customer, Saya dapat melakukan registrasi dengan nomor hp @sit</name>
+            <title>Sebagai customer, Saya dapat melakukan registrasi dengan nomor hp @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

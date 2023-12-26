@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701763368525' stop='1701763539976'>
+    <name>Kategori Home Service</name>
+    <title>Kategori Home Service</title>
+    <test-cases>
+        <test-case start='1701763368526' status='passed' stop='1701763393412'>
+            <name>TDA-573 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Home Service apabila saya belum login - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-573 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Home Service apabila saya belum login - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='51149585-dc90-4780-92e5-3c2f4aba88d3-attachment.png' type='image/png' size='94435'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701763393414' status='passed' stop='1701763448236'>
+            <name>TDA-575 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-575 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d2835055-d0c4-4ba7-8911-f6002ba2f9b9-attachment.png' type='image/png' size='195896'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701763448237' status='failed' stop='1701763539971'>
+            <name>TDA-1353 - Sebagai user saya dapat memilih layanan service home service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1353 - Sebagai user saya dapat memilih layanan service home service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='668b41fd-6687-4d6c-8e07-a524b60d5502-attachment.png' type='image/png' size='190344'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms
+                    at async kategoriHomeScreen.verifyScreenIsidataDirianda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.homeService.screen.ts:166:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:35:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701763539973' status='pending' stop='1701763539974'>
+            <name>TDA-1354 - Sebagai user saya dapat mengisi alamat dan dapat melihat lokasi alamat di peta - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1354 - Sebagai user saya dapat mengisi alamat dan dapat melihat lokasi alamat di peta - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701763539974' status='pending' stop='1701763539974'>
+            <name>TDA-1355 - Sebagai user saya dapat memilih waktu atau mekanik home service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1355 - Sebagai user saya dapat memilih waktu atau mekanik home service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700698606114' stop='1700698647212'>
+    <name>Filter Paket Servis</name>
+    <title>Filter Paket Servis</title>
+    <test-cases>
+        <test-case start='1700698606115' status='passed' stop='1700698647211'>
+            <name>@TDA-1346 - As a user i can use filter Paket Servis @lcsmoehr0020 @uat @sit</name>
+            <title>@TDA-1346 - As a user i can use filter Paket Servis @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6189679f-8ba4-4b1b-acaa-140372564c7b-attachment.png' type='image/png' size='233052'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702537785391' stop='1702538074152'>
+    <name>Add, Update and Remove Kendaraan Saya</name>
+    <title>Add, Update and Remove Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1702537785392' status='failed' stop='1702538074150'>
+            <name>@TDA-731 - Sebagai Customer, Saya dapat merubah detail kendaraan saya di MyProfile @uat @sit</name>
+            <title>@TDA-731 - Sebagai Customer, Saya dapat merubah detail kendaraan saya di MyProfile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='471d1a6f-c1f1-4d90-bd61-c9222c29700a-attachment.png' type='image/png' size='253567'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call elementClick on element with selector "android=text("Pilih jenis bahan bakar")" because element wasn't found</message>
+                <stack-trace>Error: Can't call elementClick on element with selector "android=text("Pilih jenis bahan bakar")" because element wasn't found
+                    at async SimplifyAddVehicle.doEditMobilKendaraanSaya (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:147:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.editKendaraanSaya.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

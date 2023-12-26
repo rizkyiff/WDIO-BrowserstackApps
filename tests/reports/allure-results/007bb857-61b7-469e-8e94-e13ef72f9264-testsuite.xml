@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700635497445' stop='1700635529246'>
+    <name>TDA-689 - Perbaikan nominal harga after discount pada PDP PLP Kupon</name>
+    <title>TDA-689 - Perbaikan nominal harga after discount pada PDP PLP Kupon</title>
+    <test-cases>
+        <test-case start='1700635497445' status='pending' stop='1700635497446'>
+            <name>TDA-696 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Kupon) - @lcsmoehr0020 @sit</name>
+            <title>TDA-696 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Kupon) - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700635497447' status='passed' stop='1700635529244'>
+            <name>TDA-696 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Kupon) - @lcsmoehr0020 @uat</name>
+            <title>TDA-696 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Kupon) - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8d37304e-14e4-4e5c-b52b-e49b20b0b0bd-attachment.png' type='image/png' size='164416'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

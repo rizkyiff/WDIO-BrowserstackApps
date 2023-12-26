@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701029244319' stop='1701029515625'>
+    <name>Sebagai customer, Saya dapat melihat notification pada profile ketika sudah login </name>
+    <title>Sebagai customer, Saya dapat melihat notification pada profile ketika sudah login </title>
+    <test-cases>
+        <test-case start='1701029244323' status='failed' stop='1701029334422'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                    at G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.journeyNotification.ts:12:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701029334428' status='failed' stop='1701029425116'>
+            <name>as user already login , can see screen profile @sit @uat</name>
+            <title>as user already login , can see screen profile @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d4505cd2-94c1-4157-a853-f9053499d558-attachment.png' type='image/png' size='313399'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "~btn-account" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "~btn-account" because element wasn't found
+                    at async profileloggedScreen.tapBtnProfile (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:55:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.journeyNotification.ts:19:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701029425118' status='failed' stop='1701029515623'>
+            <name>TDA-910 - My profile - notification @sit @uat</name>
+            <title>TDA-910 - My profile - notification @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f40f219a-1604-4a18-aedf-7ad6531efc3f-attachment.png' type='image/png' size='312051'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Notification")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Notification")") still not displayed after 90000ms
+                    at async profileloggedScreen.tapNotification (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.screen.ts:28:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.journeyNotification.ts:26:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

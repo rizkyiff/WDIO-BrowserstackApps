@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700542152531' stop='1700542257119'>
+    <name>Sebagai customer, Saya ingin melihat banner pada homepage </name>
+    <title>Sebagai customer, Saya ingin melihat banner pada homepage </title>
+    <test-cases>
+        <test-case start='1700542152531' status='failed' stop='1700542257116'>
+            <name>TDA-214 - Sebagai customer, saya bisa klik salah satu banner untuk melihat detail banner @uat @sit</name>
+            <title>TDA-214 - Sebagai customer, saya bisa klik salah satu banner untuk melihat detail banner @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3553bff5-195f-4151-add0-a1cf4cc54881-attachment.png' type='image/png' size='682473'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Toyota All New Innova 5")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Toyota All New Innova 5")") still not displayed after 90000ms
+                    at async banner.verifyScreenBanner (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\homepage.banner.screen.ts:26:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.banner.ts:10:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701048395468' stop='1701048421075'>
+    <name>Journey Service</name>
+    <title>Journey Service</title>
+    <test-cases>
+        <test-case start='1701048395469' status='passed' stop='1701048421073'>
+            <name>TDA-904 - As user i can see screen Service from sticky menu @sit @uat</name>
+            <title>TDA-904 - As user i can see screen Service from sticky menu @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='743e9ec7-bb74-46e8-8d7e-dbc87076542f-attachment.png' type='image/png' size='388004'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

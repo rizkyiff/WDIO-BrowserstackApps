@@ -1,0 +1,112 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700713702191' stop='1700714093762'>
+    <name>Kategori Home Service</name>
+    <title>Kategori Home Service</title>
+    <test-cases>
+        <test-case start='1700713702192' status='passed' stop='1700713723775'>
+            <name>TDA-573 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Home Service apabila saya belum login - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-573 - Sebagai Customer, saya akan direct ke halaman login ketika melakukan booking service Home Service apabila saya belum login - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7872ae93-b51f-4c20-8bb1-1dea7a56732c-attachment.png' type='image/png' size='192982'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700713723776' status='failed' stop='1700713821865'>
+            <name>TDA-575 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-575 - Sebagai Customer, saya dapat menambahkan kendaraan baru dan akan menampilkan popup "Kendaraan Berhasil ditambahkan" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d9b2e7d7-1817-4f88-97dc-88f13dfc625a-attachment.png' type='image/png' size='186363'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masukkan Email")") still not displayed after 90000ms
+                    at async FormLogin.inputEmail (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:93:9)
+                    at async BaseScreen.fillSubmitLogin (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:77:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700713821868' status='failed' stop='1700713912545'>
+            <name>TDA-1353 - Sebagai user saya dapat memilih layanan service home service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1353 - Sebagai user saya dapat memilih layanan service home service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6e91b358-ccd4-46e9-ad81-09ca18ffdaee-attachment.png' type='image/png' size='185760'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms
+                    at async kategoriHomeScreen.verifyScreenIsidataDirianda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.homeService.screen.ts:163:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:38:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700713912549' status='failed' stop='1700714003066'>
+            <name>TDA-1354 - Sebagai user saya dapat mengisi alamat dan dapat melihat lokasi alamat di peta - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1354 - Sebagai user saya dapat mengisi alamat dan dapat melihat lokasi alamat di peta - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='569d3da3-ade7-4477-ba8b-1d5b3cb18f0d-attachment.png' type='image/png' size='185582'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Jakarta Utara")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Jakarta Utara")" because element wasn't found
+                    at async kategoriHomeScreen.lokasiServisAnda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.homeService.screen.ts:178:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:42:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700714003068' status='failed' stop='1700714093760'>
+            <name>TDA-1355 - Sebagai user saya dapat memilih waktu atau mekanik home service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-1355 - Sebagai user saya dapat memilih waktu atau mekanik home service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3c20f984-d41a-4d06-9cbc-a51756cd8506-attachment.png' type='image/png' size='185943'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Isi Data diri Anda")") still not displayed after 90000ms
+                    at async kategoriHomeScreen.verifyScreenIsidataDirianda (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.homeService.screen.ts:163:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.E2eKategoriHomeService.ts:46:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

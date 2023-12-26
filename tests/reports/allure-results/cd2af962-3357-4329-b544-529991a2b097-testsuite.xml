@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700613650119' stop='1700613776808'>
+    <name>TDA-859 - SQA-Bandingkan New Car dan Used Car</name>
+    <title>TDA-859 - SQA-Bandingkan New Car dan Used Car</title>
+    <test-cases>
+        <test-case start='1700613650119' status='pending' stop='1700613650120'>
+            <name>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @sit</name>
+            <title>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700613650121' status='failed' stop='1700613776807'>
+            <name>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @uat</name>
+            <title>TDA-863 - Sebagai customer, saya dapat membandingkan used car @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d2b4c11a-5c85-44a2-82f0-cf51cdc26a44-attachment.png' type='image/png' size='1156794'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"MINTA PENAWARAN")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"MINTA PENAWARAN")]") still not displayed after 90000ms
+                    at async pdpMobilBaru.doBandingkanUsedCar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.bandingkan.screen.ts:72:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\Bandingkan\app.journeyBandingkanUsedCar.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

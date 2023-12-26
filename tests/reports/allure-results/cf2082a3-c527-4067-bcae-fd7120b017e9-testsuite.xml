@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700711773550' stop='1700711923370'>
+    <name>Login Password</name>
+    <title>Login Password</title>
+    <test-cases>
+        <test-case start='1700711773551' status='failed' stop='1700711892931'>
+            <name>@TDA-1294 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Nomor Telepon dan Password dengan Nomor yang Belum Terdaftar @sit @uat</name>
+            <title>@TDA-1294 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Nomor Telepon dan Password dengan Nomor yang Belum Terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='269b4cb5-14a3-42ea-9452-d027cf04f223-attachment.png' type='image/png' size='107096'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found
+                    at async FormLogin.tapMetodeLain (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:166:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.loginPasswordUnregisteredUser.ts:16:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700711892933' status='passed' stop='1700711923368'>
+            <name>@TDA-1296 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Email yang Belum Terdaftar @sit @uat</name>
+            <title>@TDA-1296 - Sebagai User, Saya Tidak Dapat Melakukan Login Menggunakan Email yang Belum Terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='740ab24d-7ff8-4d92-b1c3-947cbfde6f86-attachment.png' type='image/png' size='127159'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

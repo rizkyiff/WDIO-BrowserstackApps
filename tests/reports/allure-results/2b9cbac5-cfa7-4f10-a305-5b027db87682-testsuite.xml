@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701401335439' stop='1701401647529'>
+    <name>Enhancement Booking Service Bodi Paint</name>
+    <title>Enhancement Booking Service Bodi Paint</title>
+    <test-cases>
+        <test-case start='1701401335440' status='failed' stop='1701401460589'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Can't call click on element with selector "android=text("MASUK")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("MASUK")" because element wasn't found
+                    at implicitWait (G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (G:\tfs\latest\wdio-android-auto2000\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (G:\tfs\latest\wdio-android-auto2000\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async FormLogin.tapMasuk (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:97:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.tambahMobilHomeService.ts:19:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701401460592' status='failed' stop='1701401554575'>
+            <name>TDA-577 - Sebagai Customer, saya dapat melakukan pencarian data kendaraan berdasarkan plat nomor polisi berdasarkan list kendaraan ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-577 - Sebagai Customer, saya dapat melakukan pencarian data kendaraan berdasarkan plat nomor polisi berdasarkan list kendaraan ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1e128e07-a6b6-41b6-8078-b61b19f736bc-attachment.png' type='image/png' size='3777782'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Pilih model mobil")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Pilih model mobil")" because element wasn't found
+                    at async SimplifyAddVehicle.doTambahKendaraanBaru (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:79:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.tambahMobilHomeService.ts:25:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701401554579' status='failed' stop='1701401647525'>
+            <name>TDA-576 - Sebagai customer, saya dapat melakukan edit data kendaraan dan menampilkan popup "Kendaraan Berhasil Diperbaharui" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</name>
+            <title>TDA-576 - Sebagai customer, saya dapat melakukan edit data kendaraan dan menampilkan popup "Kendaraan Berhasil Diperbaharui" ketika melakukan booking service Home Service - @uat @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d05eacc6-ff15-444b-8054-fc1eb8ff650b-attachment.png' type='image/png' size='3777706'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Edit")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Edit")" because element wasn't found
+                    at async SimplifyAddVehicle.doEditMobil (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:131:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\HomeService\app.tambahMobilHomeService.ts:28:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

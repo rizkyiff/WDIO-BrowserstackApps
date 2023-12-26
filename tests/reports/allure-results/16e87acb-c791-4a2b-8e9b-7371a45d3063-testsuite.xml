@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670972843522' stop='1670972873663'>
+    <name>Journey Order Saya</name>
+    <title>Journey Order Saya</title>
+    <test-cases>
+        <test-case start='1670972843523' status='passed' stop='1670972873661'>
+            <name>as user i can see screen Order Saya</name>
+            <title>as user i can see screen Order Saya</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700549658820' stop='1700549795425'>
+    <name>Perbaikan nominal harga after discount pada PDP PLP Accs - @TDA-690</name>
+    <title>Perbaikan nominal harga after discount pada PDP PLP Accs - @TDA-690</title>
+    <test-cases>
+        <test-case start='1700549658821' status='failed' stop='1700549795420'>
+            <name>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @uat</name>
+            <title>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d7616e54-43df-4b89-8869-562fd7bc227d-attachment.png' type='image/png' size='573454'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[@text="Collapsible Box"]/following-sibling::*[@text="Rp. 50.000"]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[@text="Collapsible Box"]/following-sibling::*[@text="Rp. 50.000"]") still not displayed after 90000ms
+                    at async kategoriAksesoris.verifyDiscount (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.aksesoris.screen.ts:456:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\Aksesoris\app.hargaSetelahDiscount.ts:17:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700549795423' status='pending' stop='1700549795424'>
+            <name>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @sit</name>
+            <title>@TDA-697 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Aksesoris) @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

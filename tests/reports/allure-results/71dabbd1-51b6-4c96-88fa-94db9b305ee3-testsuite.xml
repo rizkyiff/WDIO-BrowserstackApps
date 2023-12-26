@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700613184386' stop='1700613249403'>
+    <name>TDA-859 - SQA-Bandingkan New Car dan Used Car</name>
+    <title>TDA-859 - SQA-Bandingkan New Car dan Used Car</title>
+    <test-cases>
+        <test-case start='1700613184386' status='passed' stop='1700613210412'>
+            <name>as user i can see screen Mobil baru @sit @uat</name>
+            <title>as user i can see screen Mobil baru @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='31f9653c-912f-4b61-b51e-ec64b1c29f24-attachment.png' type='image/png' size='326906'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700613210414' status='pending' stop='1700613210415'>
+            <name>TDA-862 - Sebagai customer, saya dapat membandingkan new car @sit</name>
+            <title>TDA-862 - Sebagai customer, saya dapat membandingkan new car @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700613210415' status='passed' stop='1700613249391'>
+            <name>TDA-862 - Sebagai customer, saya dapat membandingkan new car @uat</name>
+            <title>TDA-862 - Sebagai customer, saya dapat membandingkan new car @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='74842361-e742-481a-b83d-eb0b12eb4371-attachment.png' type='image/png' size='360176'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701238493053' stop='1701238607890'>
+    <name>TDA-560 - Pemisahan PLP Accs Kupon Servis</name>
+    <title>TDA-560 - Pemisahan PLP Accs Kupon Servis</title>
+    <test-cases>
+        <test-case start='1701238493054' status='passed' stop='1701238512574'>
+            <name>Sebagai Customer , Saya dapet melihat page Kupon Service @sit @uat</name>
+            <title>Sebagai Customer , Saya dapet melihat page Kupon Service @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ac1c2ce3-c5db-42ca-a4f7-f6951c2c2065-attachment.png' type='image/png' size='158192'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701238512576' status='failed' stop='1701238607887'>
+            <name>TDA-624 - Sebagai Customer, saya dapat melakukan pembelian Kupon Servis pada menu Kupon Servis di kategori pilihan - @lcsmoehr0020 @sit @uat</name>
+            <title>TDA-624 - Sebagai Customer, saya dapat melakukan pembelian Kupon Servis pada menu Kupon Servis di kategori pilihan - @lcsmoehr0020 @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7126d726-c925-4457-ba80-f3a05d31f9fd-attachment.png' type='image/png' size='227196'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Kupon Check")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Kupon Check")]") still not displayed after 90000ms
+                    at async kategoriKuponService.verifyDetailCheck (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.kupon.service.ts:236:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\PemisahanPlpAccsKupServ\app.pemisahanPlpKupServ.ts:17:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700632689844' stop='1700632715653'>
+    <name>Journey Kategori Body Paint</name>
+    <title>Journey Kategori Body Paint</title>
+    <test-cases>
+        <test-case start='1700632689845' status='passed' stop='1700632715651'>
+            <name>@TDA-1348 - As a user i can see screen Body Paint service - @lcsmoehr0020 @uat @sit</name>
+            <title>@TDA-1348 - As a user i can see screen Body Paint service - @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b06f3c74-998b-4697-9e4b-472c8cadd430-attachment.png' type='image/png' size='215570'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700694808378' stop='1700694941398'>
+    <name>Hide Price dan Setup PO Button</name>
+    <title>Hide Price dan Setup PO Button</title>
+    <test-cases>
+        <test-case start='1700694808379' status='passed' stop='1700694857363'>
+            <name>@TTDA-703 - sebagai user, saya dapat melihat harga tidak tersedia jika harga rekomendasi tidak ada di API Mobi88 @uat @sit</name>
+            <title>@TTDA-703 - sebagai user, saya dapat melihat harga tidak tersedia jika harga rekomendasi tidak ada di API Mobi88 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8081d15d-b0cd-45e4-b876-fca4c906bf4c-attachment.png' type='image/png' size='1490486'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700694857365' status='passed' stop='1700694893959'>
+            <name>@TDA-676 - Sebagai customer, saya dapat melihat tipe mobil yang dapat di pre order @uat @sit</name>
+            <title>@TDA-676 - Sebagai customer, saya dapat melihat tipe mobil yang dapat di pre order @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fd01ca7d-8bab-47d2-8b7b-b4f20ef88e68-attachment.png' type='image/png' size='1490449'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700694893960' status='passed' stop='1700694941387'>
+            <name>@TDA-678 - Sebagai customer, saya dapat melihat model mobil yang dapat di pre order, dan tanpa harga @uat @sit</name>
+            <title>@TDA-678 - Sebagai customer, saya dapat melihat model mobil yang dapat di pre order, dan tanpa harga @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='fc0581b0-a6c2-47d8-9466-f584ff4e4ed5-attachment.png' type='image/png' size='1490507'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

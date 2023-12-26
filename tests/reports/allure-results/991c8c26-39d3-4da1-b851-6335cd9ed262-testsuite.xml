@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700699395537' stop='1700699427221'>
+    <name>Sort By Paket Servis</name>
+    <title>Sort By Paket Servis</title>
+    <test-cases>
+        <test-case start='1700699395538' status='passed' stop='1700699427220'>
+            <name>@TDA-1347 - As a user i can use sort by plp Paket Servis @sit @uat @lcsmoehr0020</name>
+            <title>@TDA-1347 - As a user i can use sort by plp Paket Servis @sit @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42e5aeb8-7c3d-4bb3-803b-7d740aa6eed7-attachment.png' type='image/png' size='443398'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

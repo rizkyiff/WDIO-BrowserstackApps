@@ -1,0 +1,89 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701659395342' stop='1701659595742'>
+    <name>Pop Up Get Advise</name>
+    <title>Pop Up Get Advise</title>
+    <test-cases>
+        <test-case start='1701659395343' status='passed' stop='1701659501784'>
+            <name>TDA-200, Sebagai Customer, Saya akan melihat Header Pop Up Get Advised saat Klik Minta Penawaran Pada Product Detail Page Mobil Baru @uat @sit</name>
+            <title>TDA-200, Sebagai Customer, Saya akan melihat Header Pop Up Get Advised saat Klik Minta Penawaran Pada Product Detail Page Mobil Baru @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps>
+                <step start='1701659426301' status='passed' stop='1701659439933'>
+                    <name>Tap mobil baru from kategori</name>
+                    <title>Tap mobil baru from kategori</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701659439933' status='passed' stop='1701659485800'>
+                    <name>Tap new car and tap pilih produk</name>
+                    <title>Tap new car and tap pilih produk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701659485800' status='passed' stop='1701659498360'>
+                    <name>Tap Minta Penawaran</name>
+                    <title>Tap Minta Penawaran</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701659498360' status='passed' stop='1701659501279'>
+                    <name>Tap X and verify close</name>
+                    <title>Tap X and verify close</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='9109bfff-8670-4c43-aaa9-e57ce24ca01d-attachment.png' type='image/png' size='307624'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701659501786' status='passed' stop='1701659595741'>
+            <name>TDA-185, Sebagai Customer, Saya akan melihat Header Pop Up Get Advised saat Klik Minta Penawaran Pada Product Detail Page @uat @sit</name>
+            <title>TDA-185, Sebagai Customer, Saya akan melihat Header Pop Up Get Advised saat Klik Minta Penawaran Pada Product Detail Page @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps>
+                <step start='1701659532323' status='passed' stop='1701659543726'>
+                    <name>Tap mobil baru from kategori</name>
+                    <title>Tap mobil baru from kategori</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701659543726' status='passed' stop='1701659583199'>
+                    <name>Tap new car and tap pilih produk</name>
+                    <title>Tap new car and tap pilih produk</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701659583199' status='passed' stop='1701659595237'>
+                    <name>Tap Minta Penawaran</name>
+                    <title>Tap Minta Penawaran</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1701659595237' status='passed' stop='1701659595380'>
+                    <name>Verify Header</name>
+                    <title>Verify Header</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot' source='914be559-a7a5-449e-8a04-fc1b67d0d23b-attachment.png' type='image/png' size='168317'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

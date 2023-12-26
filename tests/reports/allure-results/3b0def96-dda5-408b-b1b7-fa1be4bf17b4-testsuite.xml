@@ -1,0 +1,29 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700725150752' stop='1700725285934'>
+    <name>Add, Update and Remove Kendaraan Saya</name>
+    <title>Add, Update and Remove Kendaraan Saya</title>
+    <test-cases>
+        <test-case start='1700725150754' status='failed' stop='1700725285931'>
+            <name>@TDA-730 - Sebagai Customer, Saya dapat menghapus list kendaraan saya di MyProfile @uat @sit</name>
+            <title>@TDA-730 - Sebagai Customer, Saya dapat menghapus list kendaraan saya di MyProfile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='18d31b0c-f4ac-484a-8feb-323d69c901da-attachment.png' type='image/png' size='190493'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("I12604G")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("I12604G")") still not displayed after 90000ms
+                    at async kendaraansayaScreen.verifyHapusKendaraan (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.logged.kendaraansaya.ts:204:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.hapusKendaraanSaya.ts:25:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

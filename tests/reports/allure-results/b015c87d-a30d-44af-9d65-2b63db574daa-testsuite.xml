@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700645347593' stop='1700645482698'>
+    <name>@TDA-687 - Perbaikan nominal harga after discount pada PDP PLP New Car - @lcsmoehr0020</name>
+    <title>@TDA-687 - Perbaikan nominal harga after discount pada PDP PLP New Car - @lcsmoehr0020</title>
+    <test-cases>
+        <test-case start='1700645347594' status='pending' stop='1700645347595'>
+            <name>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @sit</name>
+            <title>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700645347595' status='passed' stop='1700645417233'>
+            <name>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @uat</name>
+            <title>@TDA-698 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (Product Bundling) - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='67a2ceb3-5623-4b8c-b31f-2ac4f8b5162c-attachment.png' type='image/png' size='375261'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700645417235' status='pending' stop='1700645417235'>
+            <name>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @sit</name>
+            <title>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700645417246' status='passed' stop='1700645482696'>
+            <name>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @uat</name>
+            <title>@TDA-695 - Sebagai Customer, dapat melihat harga yang tampil di PDP dan PLP sesuai dengan harga pada BO, yaitu harga setelah discount (New Car) - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6d67d7b6-b4d4-473b-b842-108444ea72a3-attachment.png' type='image/png' size='487841'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

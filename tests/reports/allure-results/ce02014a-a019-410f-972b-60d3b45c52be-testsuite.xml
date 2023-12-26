@@ -1,0 +1,127 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701660686028' stop='1701661053857'>
+    <name>Promo Homepage</name>
+    <title>Promo Homepage</title>
+    <test-cases>
+        <test-case start='1701660686029' status='pending' stop='1701660686031'>
+            <name>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage  @sit</name>
+            <title>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage  @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701660686031' status='failed' stop='1701660713945'>
+            <name>TDA-206 - Sebagai customer, saya dapat melihat promo menarik dengan menggeser kesamping @sit @uat</name>
+            <title>TDA-206 - Sebagai customer, saya dapat melihat promo menarik dengan menggeser kesamping @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4944d62e-d23b-4d58-bf6b-8ca16ccc34af-attachment.png' type='image/png' size='320946'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701660713946' status='passed' stop='1701660741609'>
+            <name>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage @uat</name>
+            <title>TDA-188 - Sebagai customer, saya dapat melihat promo menarik di Homepage @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f56f01c6-a0c3-4a35-8db3-2429b23af966-attachment.png' type='image/png' size='939141'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701660741623' status='failed' stop='1701660843229'>
+            <name>TDA-190 - Sebagai customer, saya dapat melihat detail salah satu promo. @uat @sit</name>
+            <title>TDA-190 - Sebagai customer, saya dapat melihat detail salah satu promo. @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='185a6845-299b-487f-96cc-a9de4babec0e-attachment.png' type='image/png' size='218523'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Promo")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Promo")") still not displayed after 90000ms
+                    at async PromoScreen.doVerifyDetailPromo (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\promo.screen.ts:42:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.checkPromo.ts:22:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701660843231' status='passed' stop='1701660954246'>
+            <name>TDA-189 - Sebagai customer, saya dapat melihat semua listing page di menu promo. @uat @sit</name>
+            <title>TDA-189 - Sebagai customer, saya dapat melihat semua listing page di menu promo. @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cddf7e3b-5767-4d95-a80a-b88e206cd6f3-attachment.png' type='image/png' size='401022'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701660954246' status='failed' stop='1701661053848'>
+            <name>TDA-224 - Sebagai customer, saya dapat melihat detail promo page. @sit @uat</name>
+            <title>TDA-224 - Sebagai customer, saya dapat melihat detail promo page. @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e4e37e4c-d713-41eb-9c57-5fd6fc5932e7-attachment.png' type='image/png' size='218530'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Promo")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Promo")") still not displayed after 90000ms
+                    at async PromoScreen.doVerifyDetailPromo (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\promo.screen.ts:42:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\app.checkPromo.ts:33:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

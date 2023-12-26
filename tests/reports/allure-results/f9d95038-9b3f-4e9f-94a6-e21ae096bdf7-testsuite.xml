@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700531389912' stop='1700531708940'>
+    <name>Minta Penawaran and Ajukan Pertanyaan from Branch</name>
+    <title>Minta Penawaran and Ajukan Pertanyaan from Branch</title>
+    <test-cases>
+        <test-case start='1700531389913' status='pending' stop='1700531389913'>
+            <name>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @sit</name>
+            <title>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700531389914' status='failed' stop='1700531552406'>
+            <name>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @uat</name>
+            <title>@TDA-464, Sebagai Customer, saya dapat mengisi formulir minta penawaran pada halaman cabang @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6b2869d1-149d-48f5-b117-7d7306c87c86-attachment.png' type='image/png' size='221160'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("VERIFIKASI OTP")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("VERIFIKASI OTP")") still not displayed after 90000ms
+                    at async BranchPage.mintaPenawaranSubmit (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\branch.screen.ts:180:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.mintaPenawaran.ts:50:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700531552408' status='failed' stop='1700531708932'>
+            <name>@TDA-430, Sebagai customer saya dapat melakukan pengisian minta penawaran pada halaman detail cabang @uat @sit</name>
+            <title>@TDA-430, Sebagai customer saya dapat melakukan pengisian minta penawaran pada halaman detail cabang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='aae86b94-3cad-430d-8994-fc699e497cb6-attachment.png' type='image/png' size='233644'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("All New Avanza")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("All New Avanza")") still not displayed after 90000ms
+                    at async waitAndClick (G:\tfs\latest\wdio-android-auto2000\tests\helpers\common.ts:41:5)
+                    at async BranchPage.mintaPenawaranInputMobil (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\branch.screen.ts:168:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Homepage\Branch\app.mintaPenawaran.ts:62:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

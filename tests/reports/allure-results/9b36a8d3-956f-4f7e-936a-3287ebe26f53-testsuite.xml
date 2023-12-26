@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670439706654' stop='1670439796828'>
+    <name>login</name>
+    <title>login</title>
+    <test-cases>
+        <test-case start='1670439706658' status='failed' stop='1670439706665'>
+            <name>Handling Permission</name>
+            <title>Handling Permission</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: Cannot read properties of undefined (reading 'selector')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'selector')
+                    at waitForIsShown (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\AppScreen.ts:14:23)
+                    at UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.handlingProduk.ts:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670439706666' status='failed' stop='1670439751750'>
+            <name>Hendling Tutorial </name>
+            <title>Hendling Tutorial </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("SKIP")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("SKIP")" because element wasn't found
+                    at async HandlingProduk.tapHandlingSkip (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\handling.produk.ts:20:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.handlingProduk.ts:19:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670439751752' status='failed' stop='1670439796814'>
+            <name>Hendling Produk </name>
+            <title>Hendling Produk </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='2e965e4f 12-12'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Mobil Baru")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Mobil Baru")" because element wasn't found
+                    at async HandlingProduk.tapHandlingMobilBaru (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\screenobjects\handling.produk.ts:23:9)
+                    at async UserContext.&lt;anonymous> (C:\Users\ASUS\Downloads\wdio-android-digiroom\wdio-android-digiroom\tests\scenarios\app.handlingProduk.ts:29:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

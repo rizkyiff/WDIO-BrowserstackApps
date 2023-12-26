@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701029038220' stop='1701029162803'>
+    <name>Sebagai customer, Saya dapat melihat page Booking Service ketika sudah login </name>
+    <title>Sebagai customer, Saya dapat melihat page Booking Service ketika sudah login </title>
+    <test-cases>
+        <test-case start='1701029038221' status='passed' stop='1701029061975'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701029061977' status='passed' stop='1701029069591'>
+            <name>as user already login , can see screen profile @uat @sit</name>
+            <title>as user already login , can see screen profile @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='21dd8af9-3142-4df8-8830-c90202af68e3-attachment.png' type='image/png' size='229167'/>
+            </attachments>
+        </test-case>
+        <test-case start='1701029069591' status='failed' stop='1701029162800'>
+            <name>TDA-912 - My Profile - Booking Service  @uat @sit</name>
+            <title>TDA-912 - My Profile - Booking Service  @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9c35042b-4f1b-4fe3-82e2-546dbdec56e2-attachment.png' type='image/png' size='257414'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("BOOKING SERVIS")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("BOOKING SERVIS")") still not displayed after 90000ms
+                    at async BookingServiceScreen.verifyScreenSedangBerlangsung (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\profile.bookingservice.screen.ts:28:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\ProfileLogged\app.journeyBookingService.ts:26:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

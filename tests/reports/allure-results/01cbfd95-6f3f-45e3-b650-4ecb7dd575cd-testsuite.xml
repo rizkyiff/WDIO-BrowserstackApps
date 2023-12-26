@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700635122202' stop='1700635144697'>
+    <name>Journey Kupon Service</name>
+    <title>Journey Kupon Service</title>
+    <test-cases>
+        <test-case start='1700635122203' status='passed' stop='1700635143379'>
+            <name>TDA-897, as user i can see screen Kupon Service @uat @sit</name>
+            <title>TDA-897, as user i can see screen Kupon Service @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2223ca1d-5eef-445d-a7f2-15d1786bb646-attachment.png' type='image/png' size='609236'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700635143379' status='passed' stop='1700635144696'>
+            <name>TDA-1356, Sebagai user saya dapat melihat plp kupon service @uat @sit</name>
+            <title>TDA-1356, Sebagai user saya dapat melihat plp kupon service @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0dd10061-4ef7-4bd7-9495-457c8a7cd4cd-attachment.png' type='image/png' size='154968'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

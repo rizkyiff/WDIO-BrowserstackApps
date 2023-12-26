@@ -1,0 +1,43 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700634248404' stop='1700634362918'>
+    <name>Sort By Kupon Service</name>
+    <title>Sort By Kupon Service</title>
+    <test-cases>
+        <test-case start='1700634248405' status='pending' stop='1700634248406'>
+            <name>TDA-627 - Sebagai Customer, saya dapat melakukan pencarian Kupon Servis pada plp Kupon servis @sit</name>
+            <title>TDA-627 - Sebagai Customer, saya dapat melakukan pencarian Kupon Servis pada plp Kupon servis @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700634248407' status='failed' stop='1700634362916'>
+            <name>TDA-627 - Sebagai Customer, saya dapat melakukan pencarian Kupon Servis pada plp Kupon servis @uat</name>
+            <title>TDA-627 - Sebagai Customer, saya dapat melakukan pencarian Kupon Servis pada plp Kupon servis @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='af0aa714-78f9-4a1c-a465-d23bc4309fbe-attachment.png' type='image/png' size='529898'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("//*[contains(@text,"Kupon General Check Up Altis")]") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("//*[contains(@text,"Kupon General Check Up Altis")]") still not displayed after 90000ms
+                    at async kategoriKuponService.doSearch (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.kupon.service.ts:152:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\KuponService\app.searchKuponService.ts:19:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

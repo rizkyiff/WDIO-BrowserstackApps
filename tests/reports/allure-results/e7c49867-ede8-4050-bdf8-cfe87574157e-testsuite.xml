@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701414955963' stop='1701415004314'>
+    <name>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar </name>
+    <title>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar </title>
+    <test-cases>
+        <test-case start='1701414955967' status='passed' stop='1701414984788'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1701414984790' status='passed' stop='1701415004313'>
+            <name>TDA-500 - Sebagai user saya dapat melakukan request hapus akun @sit @uat</name>
+            <title>TDA-500 - Sebagai user saya dapat melakukan request hapus akun @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='688bf095-b73e-49fa-b096-f2db589a665a-attachment.png' type='image/png' size='183030'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

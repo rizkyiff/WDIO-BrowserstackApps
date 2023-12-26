@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700545513755' stop='1700545539973'>
+    <name>TDA-560 - Pemisahan PLP Accs Kupon Servis</name>
+    <title>TDA-560 - Pemisahan PLP Accs Kupon Servis</title>
+    <test-cases>
+        <test-case start='1700545513756' status='passed' stop='1700545539972'>
+            <name>TDA-622 - Sebagai Customer, saya dapat melihat menu aksesoris dan menu kupon servis di kategori menu Shop @sit @uat</name>
+            <title>TDA-622 - Sebagai Customer, saya dapat melihat menu aksesoris dan menu kupon servis di kategori menu Shop @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5bbb8d7e-b2ab-4971-84dd-743b00a27103-attachment.png' type='image/png' size='704979'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

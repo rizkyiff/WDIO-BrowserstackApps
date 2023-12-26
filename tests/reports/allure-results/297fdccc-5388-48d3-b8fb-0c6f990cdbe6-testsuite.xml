@@ -1,0 +1,118 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701226645003' stop='1701227236615'>
+    <name>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar </name>
+    <title>Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar </title>
+    <test-cases>
+        <test-case start='1701226645004' status='failed' stop='1701226768920'>
+            <name>@TDA-723 - Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar @sit @uat</name>
+            <title>@TDA-723 - Sebagai customer, Saya dapat login dengan akun email yang sudah terdaftar @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c8f0715d-bfdb-4dc2-a6d7-5a09689afc8c-attachment.png' type='image/png' size='164867'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("Izinkan")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("Izinkan")" because element wasn't found
+                    at async PermissionScreen.tapBtnIzinkan (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\permission.screen.ts:19:9)
+                    at async FormLogin.inputNoHp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:89:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.login.nohp.ts:18:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701226768922' status='failed' stop='1701226884841'>
+            <name>@TDA-1276 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke Whatsapp Menggunakan Nomor dengan Atribut isWAVerified = True @sit @uat</name>
+            <title>@TDA-1276 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke Whatsapp Menggunakan Nomor dengan Atribut isWAVerified = True @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3b8abba7-927a-4c38-9da9-40bde19ccb96-attachment.png' type='image/png' size='108877'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "//*[@text="Tidak menerima kode ?"]/preceding-sibling::android.widget.EditText" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//*[@text="Tidak menerima kode ?"]/preceding-sibling::android.widget.EditText" because element wasn't found
+                    at async FormLogin.inputNoHp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:88:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.login.nohp.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701226884844' status='failed' stop='1701227000701'>
+            <name>@TDA-1277 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke SMS Menggunakan Nomor dengan Atribut isWAVerified = True @sit @uat</name>
+            <title>@TDA-1277 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke SMS Menggunakan Nomor dengan Atribut isWAVerified = True @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='8d221d44-a02a-44a9-b2f8-bf503a5ee9eb-attachment.png' type='image/png' size='111644'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found
+                    at async FormLogin.changeMethodeSendOtpBySMS (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:188:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.login.nohp.ts:31:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701227000719' status='failed' stop='1701227120640'>
+            <name>@TDA-1278 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke Whatsapp Menggunakan Nomor dengan Atribut isPhoneVerified = True @sit @uat</name>
+            <title>@TDA-1278 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke Whatsapp Menggunakan Nomor dengan Atribut isPhoneVerified = True @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='19a9f846-f063-4871-bbd2-890510853869-attachment.png' type='image/png' size='111985'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "//*[@text="Tidak menerima kode ?"]/preceding-sibling::android.widget.EditText" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "//*[@text="Tidak menerima kode ?"]/preceding-sibling::android.widget.EditText" because element wasn't found
+                    at async FormLogin.inputNoHp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:88:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.login.nohp.ts:38:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701227120643' status='failed' stop='1701227236613'>
+            <name>@TDA-1279 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke SMS Menggunakan Nomor dengan Atribut isPhoneVerified= True @sit @uat</name>
+            <title>@TDA-1279 - Sebagai User, Saya Dapat Melakukan Login Menggunakan OTP yang Dikirim ke SMS Menggunakan Nomor dengan Atribut isPhoneVerified= True @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e9f2201e-9fb8-4c71-998b-dee35799c77d-attachment.png' type='image/png' size='112169'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("coba metode lain")" because element wasn't found
+                    at async FormLogin.changeMethodeSendOtpBySMS (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\login.screen.ts:188:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\Login\Profile\app.login.nohp.ts:45:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

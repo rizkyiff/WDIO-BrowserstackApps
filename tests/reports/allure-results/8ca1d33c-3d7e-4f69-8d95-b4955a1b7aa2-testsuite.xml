@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700694039824' stop='1700694573442'>
+    <name>Hide Price dan Setup PO Button</name>
+    <title>Hide Price dan Setup PO Button</title>
+    <test-cases>
+        <test-case start='1700694039825' status='failed' stop='1700694162500'>
+            <name>@TTDA-703 - sebagai user, saya dapat melihat harga tidak tersedia jika harga rekomendasi tidak ada di API Mobi88 @uat @sit</name>
+            <title>@TTDA-703 - sebagai user, saya dapat melihat harga tidak tersedia jika harga rekomendasi tidak ada di API Mobi88 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0c2d3984-c633-412a-aee1-799d326c4a1f-attachment.png' type='image/png' size='391670'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms
+                    at async pdpMobilBaru.openPreOrderCar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:138:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.preOrderMobilBaru.ts:15:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700694162502' status='failed' stop='1700694367949'>
+            <name>@TDA-676 - Sebagai customer, saya dapat melihat tipe mobil yang dapat di pre order @uat @sit</name>
+            <title>@TDA-676 - Sebagai customer, saya dapat melihat tipe mobil yang dapat di pre order @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='17742512-b70e-4b22-8f5d-6c1a559f85a7-attachment.png' type='image/png' size='490686'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms
+                    at async pdpMobilBaru.openPreOrderCar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:138:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.preOrderMobilBaru.ts:19:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700694367951' status='failed' stop='1700694573438'>
+            <name>@TDA-678 - Sebagai customer, saya dapat melihat model mobil yang dapat di pre order, dan tanpa harga @uat @sit</name>
+            <title>@TDA-678 - Sebagai customer, saya dapat melihat model mobil yang dapat di pre order, dan tanpa harga @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='562b2797-c9f6-4c1b-8280-8815a695a596-attachment.png' type='image/png' size='491240'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms
+                    at async pdpMobilBaru.openPreOrderCar (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:138:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.preOrderMobilBaru.ts:23:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

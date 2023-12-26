@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700721956620' stop='1700721978712'>
+    <name>Journey Sticky - Plp Used Car</name>
+    <title>Journey Sticky - Plp Used Car</title>
+    <test-cases>
+        <test-case start='1700721956621' status='passed' stop='1700721978711'>
+            <name>@TDA-1343 - As a user i can access plp used car from sticky menu shop @uat @sit</name>
+            <title>@TDA-1343 - As a user i can access plp used car from sticky menu shop @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='575fbf87-c98d-4782-8dc4-60b028ba386e-attachment.png' type='image/png' size='665042'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

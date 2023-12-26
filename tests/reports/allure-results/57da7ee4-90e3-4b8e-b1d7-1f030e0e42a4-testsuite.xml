@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700700006400' stop='1700700132571'>
+    <name>TDA-857 - Test Drive</name>
+    <title>TDA-857 - Test Drive</title>
+    <test-cases>
+        <test-case start='1700700006401' status='passed' stop='1700700027335'>
+            <name>TDA-899 - as user i can see screen Test Drive @sit @uat</name>
+            <title>TDA-899 - as user i can see screen Test Drive @sit @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='faac8879-b557-49c2-81d4-b76edf9791bd-attachment.png' type='image/png' size='533848'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700700027336' status='failed' stop='1700700132568'>
+            <name> - Sebagai user saya dapat melihat page PLP - @sit @uat @lcsmoehr0020</name>
+            <title> - Sebagai user saya dapat melihat page PLP - @sit @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f69f6e20-b164-4d62-998f-b2b924b05044-attachment.png' type='image/png' size='269941'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("SPORTS")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("SPORTS")") still not displayed after 90000ms
+                    at async kategoriKuponService.verifyScreenPlp (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.testdrive.screen.ts:86:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TestDrive\app.journeyPlpTestDrive.ts:17:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

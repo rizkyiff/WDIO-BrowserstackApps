@@ -1,0 +1,142 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700720433254' stop='1700720665678'>
+    <name>Section Kategori - Order Aksesoris - Instant Payment</name>
+    <title>Section Kategori - Order Aksesoris - Instant Payment</title>
+    <test-cases>
+        <test-case start='1700720433255' status='passed' stop='1700720457162'>
+            <name>as user i can see screen Aksesoris @lcsmoehr0020 @uat @sit</name>
+            <title>as user i can see screen Aksesoris @lcsmoehr0020 @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='60fd0fc5-655d-4fd2-8edb-1d9cdf2b277d-attachment.png' type='image/png' size='623748'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700720457163' status='passed' stop='1700720462318'>
+            <name>TDA-1349 - As a user i can see plp accessories @uat @sit</name>
+            <title>TDA-1349 - As a user i can see plp accessories @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f7fa729a-42f5-4ba9-9dea-c8024cb8a10a-attachment.png' type='image/png' size='602576'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700720462319' status='pending' stop='1700720462320'>
+            <name>TDA-1350 - As a user i can see pdp accessories @sit</name>
+            <title>TDA-1350 - As a user i can see pdp accessories @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700720462323' status='passed' stop='1700720471574'>
+            <name>TDA-1350 - As a user i can see pdp accessories @uat</name>
+            <title>TDA-1350 - As a user i can see pdp accessories @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='adcf533c-6276-4d3e-8e8a-72a2a14cdb30-attachment.png' type='image/png' size='998357'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700720471575' status='pending' stop='1700720471576'>
+            <name>TDA-966 - Sebagai Customer, saya dapat melakukan order Aksesoris menggunakan metode Pembayaran Instan - @lcsmoehr0020 @sit</name>
+            <title>TDA-966 - Sebagai Customer, saya dapat melakukan order Aksesoris menggunakan metode Pembayaran Instan - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700720471576' status='failed' stop='1700720569473'>
+            <name>TDA-966 - Sebagai Customer, saya dapat melakukan order Aksesoris menggunakan metode Pembayaran Instan - @lcsmoehr0020 @uat</name>
+            <title>TDA-966 - Sebagai Customer, saya dapat melakukan order Aksesoris menggunakan metode Pembayaran Instan - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='cd9c125a-945d-4ab9-850a-b2ccc99dc39e-attachment.png' type='image/png' size='919599'/>
+            </attachments>
+            <failure>
+                <message>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found</message>
+                <stack-trace>Error: Can't call click on element with selector "android=text("IZINKAN")" because element wasn't found
+                    at async PermissionScreen.tapBtnIzinkan2 (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\permission.screen.ts:22:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\Aksesoris\app.orderAksesorisInstantPayment.ts:50:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1700720569489' status='pending' stop='1700720569490'>
+            <name>TDA-1351 - As a user i can choose courier and estimate duration in order accessories - @lcsmoehr0020 @sit</name>
+            <title>TDA-1351 - As a user i can choose courier and estimate duration in order accessories - @lcsmoehr0020 @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700720569490' status='failed' stop='1700720665676'>
+            <name>TDA-1351 - As a user i can choose courier and estimate duration in order accessories - @lcsmoehr0020 @uat</name>
+            <title>TDA-1351 - As a user i can choose courier and estimate duration in order accessories - @lcsmoehr0020 @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3920a840-c2e4-4b4f-bfc4-a51157c0c216-attachment.png' type='image/png' size='138716'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Edit")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Edit")") still not displayed after 90000ms
+                    at runNextTicks (node:internal/process/task_queues:60:5)
+                    at processTimers (node:internal/timers:504:9)
+                    at async kategoriAksesoris.actionLanjutPembayaranAfterLogin (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.aksesoris.screen.ts:496:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

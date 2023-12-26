@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701324162182' stop='1701324343116'>
+    <name>TDA-609 - Enhancement Trade in</name>
+    <title>TDA-609 - Enhancement Trade in</title>
+    <test-cases>
+        <test-case start='1701324162183' status='failed' stop='1701324343109'>
+            <name>TDA-610 - sebagai user, saya dapat melakukan tukar tambah mobil di trade in dengan rekomendasi harga yang sesuai @uat @lcsmoehr0020</name>
+            <title>TDA-610 - sebagai user, saya dapat melakukan tukar tambah mobil di trade in dengan rekomendasi harga yang sesuai @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0da4c38f-b21e-471b-90a2-30429690560e-attachment.png' type='image/png' size='116092'/>
+                <attachment title='Screenshot' source='b33c3ab4-4262-43f7-b163-9470759437cb-attachment.png' type='image/png' size='131666'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Terimakasih telah menggunakan Layanan Trade-In")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Terimakasih telah menggunakan Layanan Trade-In")") still not displayed after 90000ms
+                    at async kategoriTradeIn.verifyOrderBerhasil (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\kategori.tradein.screen.ts:311:13)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\TradeIn\app.E2eTradeInTTMS.ts:14:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701324343113' status='pending' stop='1701324343114'>
+            <name>TDA-610 - sebagai user, saya dapat melakukan tukar tambah mobil di trade in dengan rekomendasi harga yang sesuai @sit @lcsmoehr0020</name>
+            <title>TDA-610 - sebagai user, saya dapat melakukan tukar tambah mobil di trade in dengan rekomendasi harga yang sesuai @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

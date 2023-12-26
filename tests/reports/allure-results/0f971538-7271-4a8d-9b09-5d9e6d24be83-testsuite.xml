@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700544885076' stop='1700545010778'>
+    <name>Sebagai customer, Saya dapat melihat page Mobil Baru melalui Rekomendasi Mobil</name>
+    <title>Sebagai customer, Saya dapat melihat page Mobil Baru melalui Rekomendasi Mobil</title>
+    <test-cases>
+        <test-case start='1700544885080' status='pending' stop='1700544885081'>
+            <name>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @sit</name>
+            <title>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700544885082' status='passed' stop='1700544914431'>
+            <name>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @uat</name>
+            <title>TDA-204, Sebagai customer, saya bisa melihat section rekomendasi mobil @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42854d53-9944-474a-a2d4-1c8035bbdb49-attachment.png' type='image/png' size='442909'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700544914433' status='failed' stop='1700545010776'>
+            <name>TDA-205, sebagai customer, saya bisa melihat product rekomendasi mobil dengan menggeser kesamping @uat @sit</name>
+            <title>TDA-205, sebagai customer, saya bisa melihat product rekomendasi mobil dengan menggeser kesamping @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7587e8a3-d592-4150-bbae-6290af9f5d8b-attachment.png' type='image/png' size='448212'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:88:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)
+                    at async Function.checkIfDisplayedWithSwipeLeft (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:85:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

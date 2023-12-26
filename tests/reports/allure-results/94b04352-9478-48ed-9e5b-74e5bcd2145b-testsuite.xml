@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700633895194' stop='1700633934752'>
+    <name>TDA-560 - Pemisahan PLP Accs Kupon Servis</name>
+    <title>TDA-560 - Pemisahan PLP Accs Kupon Servis</title>
+    <test-cases>
+        <test-case start='1700633895197' status='passed' stop='1700633918475'>
+            <name>TDA-561 - Sebagai Customer, saya dapat melihat menu aksesoris dan menu kupon servis di kategori Pilihan @uat @sit</name>
+            <title>TDA-561 - Sebagai Customer, saya dapat melihat menu aksesoris dan menu kupon servis di kategori Pilihan @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f797d80a-e13e-40e0-9f77-4cc6e3cc8db1-attachment.png' type='image/png' size='155240'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700633918477' status='passed' stop='1700633934735'>
+            <name>TDA-562 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Kupon servis dan menampilkan hasil sortir @uat</name>
+            <title>TDA-562 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Kupon servis dan menampilkan hasil sortir @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='f56f54ef-2470-4f4b-a45a-866c4f7e2a72-attachment.png' type='image/png' size='348421'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700633934735' status='pending' stop='1700633934736'>
+            <name>TDA-562 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Kupon servis dan menampilkan hasil sortir @sit</name>
+            <title>TDA-562 - Sebagai Customer, saya dapat menggunakan fitur sortir pada PLP Kupon servis dan menampilkan hasil sortir @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

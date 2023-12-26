@@ -1,0 +1,53 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700787249311' stop='1700787410002'>
+    <name>TDA-1001 - Order Suku Cadang</name>
+    <title>TDA-1001 - Order Suku Cadang</title>
+    <test-cases>
+        <test-case start='1700787249317' status='passed' stop='1700787277817'>
+            <name>as user i can see screen Order Suku Cadang @uat @sit</name>
+            <title>as user i can see screen Order Suku Cadang @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='185b7f44-a4ab-44dc-8493-02affe2471c8-attachment.png' type='image/png' size='228705'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700787277819' status='pending' stop='1700787277819'>
+            <name>TDA-1003 - Sebagai Customer, saya dapat melakukan order suku cadang - @sit @lcsmoehr0020</name>
+            <title>TDA-1003 - Sebagai Customer, saya dapat melakukan order suku cadang - @sit @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1700787277820' status='passed' stop='1700787409992'>
+            <name>TDA-1003 - Sebagai Customer, saya dapat melakukan order suku cadang - @uat @lcsmoehr0020</name>
+            <title>TDA-1003 - Sebagai Customer, saya dapat melakukan order suku cadang - @uat @lcsmoehr0020</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='335b18fb-2305-4040-86d2-7d6fb751f76d-attachment.png' type='image/png' size='156597'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

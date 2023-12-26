@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1702534565807' stop='1702534591220'>
+    <name>Journey Kategori Workshop Service</name>
+    <title>Journey Kategori Workshop Service</title>
+    <test-cases>
+        <test-case start='1702534565809' status='passed' stop='1702534591218'>
+            <name>@TDA-1337 - As a user i can access workshop service from sticky menu service @uat @sit</name>
+            <title>@TDA-1337 - As a user i can access workshop service from sticky menu service @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='3fe68714-281b-47e9-898b-45a5542eaf67-attachment.png' type='image/png' size='204340'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

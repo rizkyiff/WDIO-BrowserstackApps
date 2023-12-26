@@ -1,0 +1,45 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700731095099' stop='1700731332790'>
+    <name>Sebagai customer, Saya dapat menambahkan kendaraan saya di homepage</name>
+    <title>Sebagai customer, Saya dapat menambahkan kendaraan saya di homepage</title>
+    <test-cases>
+        <test-case start='1700731095100' status='passed' stop='1700731125504'>
+            <name>as user i can see screen login @uat</name>
+            <title>as user i can see screen login @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d46ff8c8-e498-40f1-b166-840160cbf207-attachment.png' type='image/png' size='403531'/>
+            </attachments>
+        </test-case>
+        <test-case start='1700731125505' status='failed' stop='1700731332787'>
+            <name>@TDA-1051 - Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) di homepage @uat</name>
+            <title>@TDA-1051 - Sebagai Pengguna, saya bisa lebih mudah untuk memilih jenis mobil saat Add Vehicle (Tambah Kendaraan) di homepage @uat</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='52f55b05-5c86-4f71-8157-5eb1ad50b474-attachment.png' type='image/png' size='537038'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Kendaraan Berhasil Ditambahkan")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Kendaraan Berhasil Ditambahkan")") still not displayed after 90000ms
+                    at async SimplifyAddVehicle.doTambahKendaraanBaru (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\simplify.addcar.screen.ts:100:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SimplifyAddEdit\app.homepageSimplifyAdd.ts:24:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

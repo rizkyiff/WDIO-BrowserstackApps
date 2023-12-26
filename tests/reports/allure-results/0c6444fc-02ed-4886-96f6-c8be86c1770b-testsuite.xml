@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700722683487' stop='1700722708948'>
+    <name>Journey Kategori Kupon Service</name>
+    <title>Journey Kategori Kupon Service</title>
+    <test-cases>
+        <test-case start='1700722683488' status='passed' stop='1700722708946'>
+            <name>@TDA-1341 - As a user i can access coupon service page from sticky menu shop @uat @sit</name>
+            <title>@TDA-1341 - As a user i can access coupon service page from sticky menu shop @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='23299bf8-99c2-47cc-94a1-19f0dc35646e-attachment.png' type='image/png' size='155558'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

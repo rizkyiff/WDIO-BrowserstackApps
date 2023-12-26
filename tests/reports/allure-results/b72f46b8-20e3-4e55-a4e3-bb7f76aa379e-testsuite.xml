@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1700722442311' stop='1700722466908'>
+    <name>Journey Sticky Menu - Mobil Baru</name>
+    <title>Journey Sticky Menu - Mobil Baru</title>
+    <test-cases>
+        <test-case start='1700722442312' status='passed' stop='1700722466906'>
+            <name>@TDA-1342 - As a user i can access plp new car from sticky menu shop @uat @sit</name>
+            <title>@TDA-1342 - As a user i can access plp new car from sticky menu shop @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ff8bd6a7-0a96-4773-af5f-30c660881cb5-attachment.png' type='image/png' size='166718'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

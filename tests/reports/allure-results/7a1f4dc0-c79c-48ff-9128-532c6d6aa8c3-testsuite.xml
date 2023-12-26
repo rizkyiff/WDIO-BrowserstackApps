@@ -1,0 +1,125 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1701220149052' stop='1701220636559'>
+    <name>Hide Price and Setup PO Button</name>
+    <title>Hide Price and Setup PO Button</title>
+    <test-cases>
+        <test-case start='1701220149053' status='failed' stop='1701220263199'>
+            <name>@TDA-898, as user i can see screen Mobil baru @uat @sit</name>
+            <title>@TDA-898, as user i can see screen Mobil baru @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='14771e28-4798-4725-8655-c8237fb31a62-attachment.png' type='image/png' size='613619'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=resourceId("com.android.permissioncontroller:id/permission_allow_foreground_only_button")") still not displayed after 90000ms
+                    at async BaseScreen.verifyHomepageNonSticky (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:40:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.PreOrder.ts:13:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701220263201' status='failed' stop='1701220363166'>
+            <name>@TDA-682 - sebagai customer, saya dapat melihat harga dan button beli tipe product mobil baru @uat @sit</name>
+            <title>@TDA-682 - sebagai customer, saya dapat melihat harga dan button beli tipe product mobil baru @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='62275912-6a3f-4d58-8ca2-54ce1ddba4c9-attachment.png' type='image/png' size='563476'/>
+            </attachments>
+            <failure>
+                <message>Error: The element '[object Object]' could not be found or is not visible.</message>
+                <stack-trace>Error: The element '[object Object]' could not be found or is not visible.
+                    at Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:61:19)
+                    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)
+                    at async Function.checkIfDisplayedWithSwipeUp (G:\tfs\latest\wdio-android-auto2000\tests\helpers\Gestures.ts:58:13)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701220363166' status='failed' stop='1701220454357'>
+            <name>@TDA-684 - sebagai customer, saya tidak dapat melihat harga dan dapat melihat button pre-order product mobil baru @uat @sit</name>
+            <title>@TDA-684 - sebagai customer, saya tidak dapat melihat harga dan dapat melihat button pre-order product mobil baru @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2aba38b5-1b08-4056-be0b-ec6ed251a421-attachment.png' type='image/png' size='563379'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Harga Belum Tersedia (Preorder)")") still not displayed after 90000ms
+                    at async pdpMobilBaru.verifyPdpPreOrder (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:96:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.PreOrder.ts:26:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701220454361' status='failed' stop='1701220545421'>
+            <name>@TDA-685 - sebagai customer, saya dapat melakukan pre-order product mobil baru @uat @sit</name>
+            <title>@TDA-685 - sebagai customer, saya dapat melakukan pre-order product mobil baru @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4fbadef1-94cb-4628-ac82-c1f24a9b7f12-attachment.png' type='image/png' size='563233'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Masuk dengan Email")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Masuk dengan Email")") still not displayed after 90000ms
+                    at async BaseScreen.loginWithEmail (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\base.screenobject.ts:83:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.PreOrder.ts:30:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1701220545424' status='failed' stop='1701220636556'>
+            <name>@TDA-679 - Sebagai customer, saya dapat pre order tipe mobil @uat @sit</name>
+            <title>@TDA-679 - Sebagai customer, saya dapat pre order tipe mobil @uat @sit</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='device' value='fed63b7c 13-13'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='39b97aa7-7ba1-4acf-8c20-2738c085c8e5-attachment.png' type='image/png' size='562179'/>
+            </attachments>
+            <failure>
+                <message>Error: element ("android=text("Informasi Data Pribadi")") still not displayed after 90000ms</message>
+                <stack-trace>Error: element ("android=text("Informasi Data Pribadi")") still not displayed after 90000ms
+                    at async pdpMobilBaru.doPreOrder (G:\tfs\latest\wdio-android-auto2000\tests\screenobjects\mobilbaru.pdp.screen.ts:106:9)
+                    at async UserContext.&lt;anonymous> (G:\tfs\latest\wdio-android-auto2000\tests\scenarios\SectionKategori\MobilBaru\app.PreOrder.ts:38:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
